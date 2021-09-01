@@ -6,6 +6,7 @@
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
+    <!- Try building a new body here ->
     <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
         <div class="col-12">
             <p>Hello, {{name}}!</p>
@@ -17,9 +18,7 @@
                 <input type="submit" value="Greetings!">
             </form>
         </div>
-        <div class="col-12">
-            <img src="/static/assets/PythonFlask.jpeg" style="height: 400px" >
-        </div>
+
     </div>
 {% endblock %}
 
