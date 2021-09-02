@@ -1,0 +1,28 @@
+<!-- Extending the predefined project layout -->
+{% extends "layouts/base.html" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "Neha" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+    <div class="center-block" style="margin: 15% 5% 5%; text-align:center; font-family: 'Comic Sans MS',serif;">
+        <div class="col-12">
+            Hello, {{name}}!
+        </div>
+        <div class="col-12">
+            <form action="/greet" id="greet" method="POST" >
+                <label for="name">Type the first thing that comes to your mind:</label>
+                <input name="name" id="name">
+                <input type="submit" value="Press Me!">
+            </form>
+        </div>
+        <div class="col-12">
+        </div>
+    </div>
+
+{% endblock %}
+
+<!- This is turning off birds background from base.html -->
+{% block background %}
+{% endblock %}
