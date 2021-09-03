@@ -1,0 +1,37 @@
+<!-- Extending the predefined project layout -->
+{% extends "layouts/base.html" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "Stubby" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+    <!- Try building a new body here ->
+    <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
+        <div class="col-12">
+            <p>Hello, {{name}}!</p>
+        </div>
+        <div class="col-12">
+            <form action="/mini_labs" id="mini_labs" method="POST" >
+                <label for="name">Type a greeting name?</label>
+                <input name="name" id="name">
+                <input type="submit" value="Greetings!">
+            </form>
+        </div>
+
+    </div>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="https://drive.google.com/file/d/1QUX5KFgUkwMJkeGID6a--jWleS1QFJLu/preview" width="640" height="480" allow="autoplay">
+</iframe>
+
+</body>
+</html>
+{% endblock %}
+
+<!- This is turning off birds background from base.html -->
+{% block background %}
+{% endblock %}
