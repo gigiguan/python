@@ -28,7 +28,6 @@ def hawkers():
     return render_template("hawkers.html")
 
 
-
 @app.route('/gigi', methods=['GET', 'POST'])
 def gigi():
     # submit button has been pushed
@@ -38,6 +37,7 @@ def gigi():
             return render_template("gigi.html", name=name)
     # starting and empty input default
     return render_template("gigi.html", name="World")
+
 
 @app.route('/jessie', methods=['GET', 'POST'])
 def jessie():
@@ -49,9 +49,11 @@ def jessie():
     # starting and empty input default
     return render_template("jessie.html", name="World")
 
+
 @app.route('/Neha/')
 def stub():
     return render_template("Neha.html")
+
 
 @app.route('/greet', methods=['GET', 'POST'])
 def greet():
@@ -62,6 +64,18 @@ def greet():
             return render_template("Neha.html", name=name)
     # starting and empty input default
     return render_template("Neha.html", name="How's your day?")
+
+
+@app.route('/shruti/', methods=['GET', 'POST'])
+def shruti():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("shruti.html", name1=name)
+    # starting and empty input default
+    return render_template("shruti.html", name1="World")
+
 
 # runs the application on the development server
 if __name__ == "__main__":
