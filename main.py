@@ -86,6 +86,10 @@ def mini_labs():
     # starting and empty input default
     return render_template("mini_labs.html", name="World")
 
+@app.route('/theme/')
+def theme():
+    return render_template("theme.html")
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
