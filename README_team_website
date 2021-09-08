@@ -1,0 +1,11 @@
+#### idea implementation started Monday, August 30, 2021
+#### Separate pages for advanced classes (AP, honors) and regular classes
+#### WebPage with four classes: history, math, science, and english
+#### Add scaled 1~5 ratings of how hard the classes are
+#### Visual aspects: color palette of green, yellow, purple
+#### Include and embed links to useful videos on AP classroom, etc
+
+
+#### The main.py is the  Web Server Gateway Interface, essentially it contains an HTTP route and HTML file relationship.  The Python code constructs WSGI relationships for math, english, science, and history, etc
+#### WSGI templates: math.html, science.html, ... are aligned with routes in main.py.
+
