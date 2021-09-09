@@ -6,6 +6,10 @@
 #### Include and embed links to useful videos on AP classroom, etc
 
 
-#### The main.py is the  Web Server Gateway Interface, essentially it contains an HTTP route and HTML file relationship.  The Python code constructs WSGI relationships for math, english, science, and history, etc
+#### The main.py is the  Web Server Gateway Interface, essentially it contains an HTTP route and HTML file relationship. 
+#### The Python code constructs WSGI relationships for math, english, science, and history, etc
 #### WSGI templates: math.html, science.html, ... are aligned with routes in main.py.
+#### mini_labs.html page includes Greet project, video journal 0
+#### created website main page with classes named in theme.html
+
 
