@@ -1,3 +1,5 @@
+# flask_portfolio
+Tri 1: Python and Flask Intro
 #Team Python, https://github.com/gigiguan/flask_portfolio/projects/1, Gigi, Neha, Jessie, Shruti,
 
 #Pairs and Journals
