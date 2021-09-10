@@ -3,6 +3,8 @@ Tri 1: Python and Flask Intro
 #Team Python, https://github.com/gigiguan/flask_portfolio/projects/1, Gigi, Neha, Jessie, Shruti,
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
+
+
 ####Gigi Guan, Github ID: gigiguan,
 [Tasks](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Agigiguan),
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/issues/assigned/gigiguan),
