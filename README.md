@@ -33,6 +33,7 @@ Shruti Chari, Github ID: shrutiapcsp,
 [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp),
 [Profile](https://github.com/shrutiapcsp)
 
+#Website Progress
 #### idea implementation started Monday, August 30, 2021
 #### Separate pages for advanced classes (AP, honors) and regular classes
 #### WebPage with four classes: history, math, science, and english
