@@ -78,6 +78,30 @@ def theme():
 def binary():
     return render_template("binary.html")
 
+@app.route('/english/')
+def english():
+    return render_template("english.html")
+
+@app.route('/history/')
+def history():
+    return render_template("history.html")
+
+@app.route('/math/')
+def math():
+    return render_template("math.html")
+
+@app.route('/science/')
+def science():
+    return render_template("science.html")
+
+@app.route('/fine arts/')
+def finearts():
+    return render_template("fine arts.html")
+
+@app.route('/electives/')
+def electives():
+    return render_template("electives.html")
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
