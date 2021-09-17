@@ -11,9 +11,7 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
             <!-- url_for is a Jinja2 pre-processor that finds route from function name (def) -->
             <a class="nav-link" href={{ url_for('index') }}>Portfolio</a>
             <!-- stub is shown using the name of the route -->
-            <a class="nav-link" href={{ url_for('mini_labs') }}>mini_labs</a>
             <a class="nav-link" href={{ url_for('theme') }}>Theme</a>
-            <a class="nav-link" href={{ url_for('binary') }}>Binary</a>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     About Us
@@ -23,6 +21,16 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                     <a class="dropdown-item" href="/gigi">About Gigi</a>
                     <a class="dropdown-item" href="/jessie">About Jessie</a>
                     <a class="dropdown-item" href="/shruti/">About Shruti</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Mini labs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/mini_labs">Tangibles and Greet Project</a>
+                    <a class="dropdown-item" href="/binary">Binary Hackathon</a>
                 </div>
             </li>
         </div>
