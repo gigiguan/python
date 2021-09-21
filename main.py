@@ -102,6 +102,10 @@ def finearts():
 def electives():
     return render_template("electives.html")
 
+@app.route('/RGB/')
+def RGB():
+    return render_template("RGB.html")
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
