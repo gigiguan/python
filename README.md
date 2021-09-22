@@ -8,6 +8,11 @@ Gigi, Neha, Jessie, Shruti,
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
 
+Week 5
+| Name | Github Profile | Tasks | Scrum Board | Commits |
+|  --- |  ---           | ---   | ---         | ---     |
+| Samhitha | [@dsblack0](https://github.com/dsblack0)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/dsblack0) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Adsblack0) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=dsblack0) |
+
 
 Gigi Guan, Github ID: gigiguan,
 [Tasks](https://github.com/gigiguan/flask_portfolio/issues/assigned/gigiguan),
