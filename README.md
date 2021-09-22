@@ -1,6 +1,6 @@
 # DN Classes
 
-Team Python
+# Team Python
 ## Scrum Board
 [Scrum Board] (https://github.com/gigiguan/flask_portfolio/projects/1)
 
