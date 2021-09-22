@@ -1,18 +1,20 @@
 # DN Classes
 
 Team Python
-
-https://github.com/gigiguan/flask_portfolio/projects/1
+## Scrum Board
+[Scrum Board] (https://github.com/gigiguan/flask_portfolio/projects/1)
 
 Gigi, Neha, Jessie, Shruti,
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
 
-Week 5
+## Contributors
 | Name | Github Profile | Tasks | Scrum Board | Commits |
 |  --- |  ---           | ---   | ---         | ---     |
-| Samhitha | [@dsblack0](https://github.com/dsblack0)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/dsblack0) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Adsblack0) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=dsblack0) |
-
+| Gigi | [@gigiguan (https://github.com/gigiguan)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues/assigned/gigiguan) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Agigiguan) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=gigiguan) |
+| Neha | [@nehapavani](https://github.com/nehapavani)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues/assigned/nehapavani) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Anehapavani) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=nehapavani) |
+| Jessie | [@parkjessie](https://github.com/parkjessie) | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Aparkjessie) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=parkjessie) |
+| Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 Gigi Guan, Github ID: gigiguan,
 [Tasks](https://github.com/gigiguan/flask_portfolio/issues/assigned/gigiguan),
