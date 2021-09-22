@@ -17,16 +17,10 @@ def image_formatter(img, img_type):
 
 
 # color_data prepares a series of images for data analysis
-def image_data(path="static/img/", img_list=None):  # path of static images is defaulted
+def image_data(path="static/assets/", img_list=None):  # path of static images is defaulted
     if img_list is None:  # color_dict is defined with defaults
         img_list = [
-            {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
-            {'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.png"},
-            {'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.jpg"}
+            {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"}
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
     for img_dict in img_list:
@@ -68,7 +62,7 @@ def image_data(path="static/img/", img_list=None):  # path of static images is d
 
 # run this as standalone tester to see data printed in terminal
 if __name__ == "__main__":
-    local_path = "../static/img/"
+    local_path = "../static/assets/"
     img_test = [
         {'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.png"},
     ]
