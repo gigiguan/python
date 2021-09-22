@@ -17,8 +17,8 @@ Gigi, Neha, Jessie, Shruti,
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 ## Week 5
-### Modeling
-| Name | Requirement | Evidence | Grade |
+### Self Grade
+| Name | Task | Evidence | Grade |
 | ---  | ---         | ---      | ---   |
 | Gigi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 | Neha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
