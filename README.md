@@ -25,7 +25,7 @@ Gigi, Neha, Jessie, Shruti,
 | Jessie | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 | Shruti | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 
-#Website Progress
+# Website Progress
 #### idea implementation started Monday, August 30, 2021
 #### Separate pages for advanced classes (AP, honors) and regular classes
 #### WebPage with four classes: history, math, science, and english
