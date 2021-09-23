@@ -1,6 +1,7 @@
 # import "packages" from flask
 from flask import Flask, render_template
 from flask import request
+from image import image_data
 
 # create a Flask instance
 app = Flask(__name__)
@@ -104,7 +105,7 @@ def electives():
 
 @app.route('/RGB/')
 def RGB():
-    return render_template("RGB.html")
+    return render_template("RGB.html", images=image_data())
 
 # runs the application on the development server
 if __name__ == "__main__":
