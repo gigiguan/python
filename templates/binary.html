@@ -42,6 +42,14 @@
              DOM assignment by converting decimal https://www.w3schools.com/jsref/jsref_fromcharcode.asplook
              below ASCII for more ideas of where to make changes
              */
+            if (decimal < 32) {
+                document.getElementById('ascii').innerHTML = 'NPC'
+            } else if (decimal==32) {
+                document.getElementById('ascii').innerHTML = 'space'
+            } else {
+                dcomument.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(decimal));
+
+        }
             document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(binary, 2))
             document.getElementById('RGB').innerHTML = String.fromCharCode(parseInt(binary, 8))
 
@@ -114,10 +122,24 @@
     </script>
 {% endblock %}
 
+
+
 {% block body %}
     <h1 class="text-center">Binary Math with Conversions</h1>
     <div class="container">
         <div class="row justify-content-md-center">
+            <div class="row" style="...">
+                </div> class="col-12">
+                    <form action=""/>binary/" id="binaryForm" method="POST" >
+                        <label for="binaryForm">Set Number of Bits </label>
+                        <input name="bits" id="bits">
+                        <input type="submit" name="bits1" value="Set Bits">
+                        <input type="submit" name="bits2" value="Change Image">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
             <div class="col-8">
                 <table class="table">
@@ -149,24 +171,24 @@
 
             <div class="col-12">
                 <table class="table">
-                    <tr>
+                    <div>
                         {% for i in range(BITS) %}
+                            {%  if i % 8 == 8 %}
+                            <td>
+                            {%  endif %}
+                            <td><input typo="text" id='digit{{ i }}' Value="8" size ="1" readonly></td>
                             <td><img class="img-responsive py-3" id="bulb{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto">
                                 <button type="button" id="butt{{i}}" onclick="toggleBit('{{i}}')">{{ msgTurnOn }}</button>
                             </td>
-                        {% endfor %}
-                    </tr>
-                    <tr>
-                        {% for i in range(BITS) %}
-                            <td><input type='text' id='digit{{i}}' Value="0" size="1" readonly></td>
-                        {% endfor %}
-                    </tr>
+                        {% if i + 1 % 8 ==0 or i== BITS %}
+                        </tr>
+                            {% enddif %}
+                        {% endfor %}`
+                    </div>
+
                 </table>
             </div>
 
-        </div>
-    </div>
+
 {% endblock %}
 
-{% block background %}
-{% endblock %}
