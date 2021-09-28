@@ -7,13 +7,13 @@
            use HTML Input Form in Frontend, ie toward top of Page
            send initial value and updated values to form via Python render_template -->
 <!-- Hack: use 8 as default -->
-{% set BITS = 8 %}
+{#% set BITS = 8 %#}
 {% set MAX = ((2 ** BITS) - 1) %}
 
 <!-- Hack: Set bulbs and pass as variables via Python render_template
            add new images (ie PNGs) to project -->
 <!-- use your PNGs as default -->
-{% set imgBulbOn = "/static/assets/openbook.jpg" %}
+{#% set imgBulbOn = "/static/assets/openbook.jpg" %#}
 {% set imgBulbOff = "/static/assets/closedbook.jpg" %}
 {% set msgTurnOn = "Turn On" %}
 {% set msgTurnOff = "Turn Off" %}
@@ -47,10 +47,11 @@
             } else if (decimal==32) {
                 document.getElementById('ascii').innerHTML = 'space'
             } else {
-                dcomument.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(decimal));
+                document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(decimal));
 
         }
             document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(binary, 2))
+
             document.getElementById('RGB').innerHTML = String.fromCharCode(parseInt(binary, 8))
 
         }
@@ -123,18 +124,27 @@
 {% endblock %}
 
 
-
 {% block body %}
     <h1 class="text-center">Binary Math with Conversions</h1>
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="row" style="...">
-                </div> class="col-12">
-                    <form action=""/>binary/" id="binaryForm" method="POST" >
+                </div class="col-12">
+                    <form action="/binary/" id="binaryForm" method="POST" >
+
                         <label for="binaryForm">Set Number of Bits </label>
-                        <input name="bits" id="bits">
+                        <input type="text" name="BITS" id="bits" value={{ BITS }}>
+                        <p> Choose a Lightbulb </p>
+                        <input type = "radio" name="lightOn" value="/static/assets/openbook.jpg" checked>
+                        <img src="/static/assets/openbook.jpg" >
+                        <img src="/static/assets/bulb_on.jpg" >
+                        <input type = "radio" name="lightOn" value="/static/assets/book 2.jpg">
+                        <img src="/static/assets/book 2.jpg" >
+                        <input type = "radio" name="lightOn" value="static/assets/bulb_on.jpg" >
+                        <img src="/static/assets/bulb_on.jpg" >
+                        <br>
+
                         <input type="submit" name="bits1" value="Set Bits">
-                        <input type="submit" name="bits2" value="Change Image">
                     </form>
                 </div>
             </div>
@@ -182,7 +192,7 @@
                             </td>
                         {% if i + 1 % 8 ==0 or i== BITS %}
                         </tr>
-                            {% enddif %}
+                            {% endif %}
                         {% endfor %}`
                     </div>
 
