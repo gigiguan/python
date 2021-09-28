@@ -3,10 +3,8 @@ from flask import Flask, render_template
 from flask import request
 from image import image_data
 from pathlib import Path
-
 # create a Flask instance
 app = Flask(__name__)
-
 
 # connects default URL to render index.html
 @app.route('/')
@@ -76,9 +74,14 @@ def mini_labs():
 def theme():
     return render_template("theme.html")
 
-@app.route('/binary/')
+@app.route('/binary/', methods=['GET', 'POST'])
 def binary():
-    return render_template("binary.html")
+    BITS=8
+    imgBulbOn = "static/assets/openbook.jpg"
+    if request.form:
+        BITS = int(request.form.get("BITS"))
+        imgBulbOn = request.form['lightOn']
+    return render_template("binary.html", imgBulbOn=imgBulbOn, BITS=BITS)
 
 @app.route('/english/')
 def english():
