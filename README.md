@@ -24,7 +24,7 @@ Gigi, Neha, Jessie, Shruti,
 ### Self Grade
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
-| Gigi | RBG with an Image, Backend| -/2<br>-/1|
+| Gigi | RBG with an Image, Backend|[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69152525)| -/2<br>-/1|
 | Neha | RBG with Image, Frontend| -/2<br>-/1 |
 | Jessie | RGB Values with an Image | -/2<br>-/1|
 | Shruti | Research/ Study Sheet/ journal| -/2<br>-/1|
