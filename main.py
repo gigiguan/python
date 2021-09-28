@@ -6,7 +6,6 @@ from image import image_data
 # create a Flask instance
 app = Flask(__name__)
 
-
 # connects default URL to render index.html
 @app.route('/')
 def index():
