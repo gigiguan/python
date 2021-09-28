@@ -16,14 +16,17 @@ Gigi, Neha, Jessie, Shruti,
 | Jessie | [@parkjessie](https://github.com/parkjessie) | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Aparkjessie) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=parkjessie) |
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
+## Table of Contents
+    -[Week 5] (https://github.com/gigiguan/flask_portfolio/projects/1#week5)
+
 ## Week 5
 ### Self Grade
-| Name | Task | Evidence | Grade |
-| ---  | ---         | ---      | ---   |
-| Gigi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Neha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Jessie | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Shruti | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Name | TT & TPT Notes | Grade |
+| ---  |  ---           | ---   |
+| Gigi | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)|  -/1<br>-/1<br>-/3 |
+| Neha | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Jessie | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Shruti | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 
 # Website Progress
 #### idea implementation started Monday, August 30, 2021
