@@ -17,10 +17,22 @@ Gigi, Neha, Jessie, Shruti,
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 ## Table of Contents
-    -[Week 5] (https://github.com/gigiguan/flask_portfolio/projects/1#week5)
+ [Week 6] 
+ [Week 5](https://github.com/gigiguan/flask_portfolio/projects/1#week5)
+
+## Week 6
+### Self Grade
+| Name | Tasks | Tickets | Grade |
+| ---  |  ---  | ----           | ---   |
+| Gigi | RBG with an Image, Backend| -/2<br>-/1|
+| Neha | RBG with Image, Frontend| -/2<br>-/1 |
+| Jessie | RGB Values with an Image | -/2<br>-/1|
+| Shruti | Research/ Study Sheet/ journal| -/2<br>-/1|
+
+
 
 ## Week 5
-### Self Grade
+### OO and TO Grading
 | Name | TT & TPT Notes | Grade |
 | ---  |  ---           | ---   |
 | Gigi | [Journal](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| 3/3|
