@@ -23,7 +23,7 @@ Gigi, Neha, Jessie, Shruti,
 ### Self Grade
 | Name | TT & TPT Notes | Grade |
 | ---  |  ---           | ---   |
-| Gigi | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)|  -/1<br>-/1<br>-/3 |
+| Gigi | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)|  1/1<br>-/1<br>-/3 |
 | Neha | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 | Jessie | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 | Shruti | [Journal] (https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
