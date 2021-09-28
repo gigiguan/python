@@ -27,7 +27,7 @@ Gigi, Neha, Jessie, Shruti,
 | Gigi | RBG with an Image, Backend| [Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69152525)| -/2<br>-/1|
 | Neha | RBG with Image, Frontend| [Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718537)| -/2<br>-/1 |
 | Jessie | RGB Values with an Image |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718552)| -/2<br>-/1|
-| Shruti | Research/ Study Sheet/ journal<br> Documentation| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718560)<br>[Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718588)| -/2<br>-/1|
+| Shruti | Research/ Study Sheet/ journal<br> Documentation| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718560)<br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718588)| -/2<br>-/1|
 
 
 
