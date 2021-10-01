@@ -61,7 +61,6 @@ def image_data(path=Path("static/assets/"), img_list=None):  # path of static im
         img_dict['base64_GRAY'] = image_formatter(img_reference, img_dict['format'])
     return img_list  # list is returned with all the attributes for each image dictionary
 
-
 # run this as standalone tester to see data printed in terminal
 if __name__ == "__main__":
     local_path = "static/assets/"
