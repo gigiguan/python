@@ -31,15 +31,17 @@ def image_data(path=Path("static/assets/"), img_list=None):  # path of static im
         file = path / img_dict['file']  # file with path for local access (backend)
         # Python Image Library operations
         img_reference = Image.open(file)  # PIL
-        img_reference = img_reference.filter(ImageFilter.BLUR)
-        blurImage.show()
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
         img_dict['mode'] = img_reference.mode
         img_dict['size'] = img_reference.size
         # Conversion of original Image to Base64, a string format that serves HTML nicely
         img_dict['base64'] = image_formatter(img_reference, img_dict['format'])
-        # Numpy is used to allow easy access to data of image, python list
+        blurImage = img_reference.filter(ImageFilter.BLUR)
+        img_dict['base64_BLUR'] = image_formatter(blurImage, img_dict['format'])
+
+
+    # Numpy is used to allow easy access to data of image, python list
         img_dict['data'] = numpy.array(img_data)
         img_dict['hex_array'] = []
         img_dict['binary_array'] = []
