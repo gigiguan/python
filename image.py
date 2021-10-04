@@ -20,9 +20,9 @@ def image_formatter(img, img_type):
 def image_base64_MSG(img, img_type):
     #img = Image.open("lassen-volcano-256.jpeg")
     d1 = ImageDraw.Draw(img)
-    myFont = ImageFont.truetype("arial.ttf", 25)
-    d1.text((10, 10), "We Are Team Python!", font=myFont, fill="black")
-    img.show()
+    font = ImageFont.load_default()
+    d1.text((10, 10), "We Are Team Python!", font=font, fill="black")
+    #img.show()
     #img.save("\image_text.jpg")
     return "data:image/" + img_type + ";base64," + image_base64(img, img_type)
 
@@ -104,6 +104,6 @@ if __name__ == "__main__":
         filename = local_path + row['file']
         image_ref = Image.open(filename)
         draw = ImageDraw.Draw(image_ref)
-        draw.text((0, 0), "Size is {0} X {1}".format(*row['size']))  # draw in image
+        #draw.text((0, 0), "Size is {0} X {1}".format(*row['size']))  # draw in image
         image_ref.show()
 print()
