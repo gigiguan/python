@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 import numpy
 import base64
@@ -17,6 +17,14 @@ def image_base64(img, img_type):
 # formatter preps base64 string for inclusion, ie <img src=[this return value] ... />
 def image_formatter(img, img_type):
     return "data:image/" + img_type + ";base64," + image_base64(img, img_type)
+
+def image_base_MSF(img, img_type):
+        d1 = ImageDraw.Draw(img)
+        font = ImageFont.load_defualt()
+        d1.text((10,10), "We Are Team Python!", font=font, fill="blue" )
+        return "data:image/" + img_type + ";base64," +image_base64(img, img_type)
+
+
 
 
 # color_data prepares a series of images for data analysis
