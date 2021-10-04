@@ -18,10 +18,9 @@ Gigi, Neha, Jessie, Shruti,
 
 ## Table of Contents
 
-[Week 7] (https://github.com/gigiguan/flask_portfolio#week-7)
+[Week 7](https://github.com/gigiguan/flask_portfolio#week-7)
 [Week 6](https://github.com/gigiguan/flask_portfolio#week-6) 
 [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
-
 
 ## Week 7
 ### Self Grade
