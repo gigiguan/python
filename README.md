@@ -17,18 +17,25 @@ Gigi, Neha, Jessie, Shruti,
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 ## Table of Contents
- [Week 6] 
- [Week 5](https://github.com/gigiguan/flask_portfolio/projects/1#week5)
+ [Week 6](https://github.com/gigiguan/flask_portfolio#week-6)  <br>
+ [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
 
 ## Week 6
-### Self Grade
+### Self Grade 
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
-| Gigi | RBG with an Image, Backend| [Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69152525)| -/2<br>-/1|
-| Neha | RBG with Image, Frontend| [Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718537)| -/2<br>-/1 |
-| Jessie | RGB Values with an Image |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718552)| -/2<br>-/1|
-| Shruti | Research/ Study Sheet/ journal<br> Documentation| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718560)<br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718588)| -/2<br>-/1|
+| Gigi | RBG with an Image, Backend| [Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69152525)| 1/1|
+| Neha | RBG with Image, Frontend| [Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718537)| 1/1 |
+| Jessie | RGB Values with an Image |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718552)| 1/1|
+| Shruti | Research/ Study Sheet/ journal <br> Documentation <br> Big O notation | [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718560)<br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-69718588) <br> [Ticket 3](https://github.com/gigiguan/flask_portfolio/projects/1#card-69886698)| 1/1|
 
+# College Board Live Grade
+| Name | TT & TPT Notes | Grade |
+| ---  |  ---           | ---   |
+| Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 3/3|
+| Neha | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 3/3 |
+| Jessie | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 3/3|
+| Shruti | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 3/3  |
 
 
 ## Week 5
