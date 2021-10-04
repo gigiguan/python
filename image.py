@@ -1,6 +1,7 @@
 from pathlib import Path
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter
+
 import numpy
 import base64
 from io import BytesIO
@@ -30,6 +31,8 @@ def image_data(path=Path("static/assets/"), img_list=None):  # path of static im
         file = path / img_dict['file']  # file with path for local access (backend)
         # Python Image Library operations
         img_reference = Image.open(file)  # PIL
+        img_reference = img_reference.filter(ImageFilter.BLUR)
+        blurImage.show()
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
         img_dict['mode'] = img_reference.mode
