@@ -1,6 +1,7 @@
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
+
 import numpy
 import base64
 from io import BytesIO
@@ -17,14 +18,14 @@ def image_base64(img, img_type):
 def image_formatter(img, img_type):
     return "data:image/" + img_type + ";base64," + image_base64(img, img_type)
 
-def image_base64_MSG(img, img_type):
-    #img = Image.open("lassen-volcano-256.jpeg")
-    d1 = ImageDraw.Draw(img)
-    font = ImageFont.load_default()
-    d1.text((10, 10), "We Are Team Python!", font=font, fill="black")
-    #img.show()
-    #img.save("\image_text.jpg")
-    return "data:image/" + img_type + ";base64," + image_base64(img, img_type)
+def image_base_MSF(img, img_type):
+        d1 = ImageDraw.Draw(img)
+        font = ImageFont.load_defualt()
+        d1.text((10,10), "We Are Team Python!", font=font, fill="blue" )
+        return "data:image/" + img_type + ";base64," +image_base64(img, img_type)
+
+
+
 
 # color_data prepares a series of images for data analysis
 def image_data(path=Path("static/assets/"), img_list=None):  # path of static images is defaulted
@@ -44,10 +45,11 @@ def image_data(path=Path("static/assets/"), img_list=None):  # path of static im
         img_dict['size'] = img_reference.size
         # Conversion of original Image to Base64, a string format that serves HTML nicely
         img_dict['base64'] = image_formatter(img_reference, img_dict['format'])
+        blurImage = img_reference.filter(ImageFilter.BLUR)
+        img_dict['base64_BLUR'] = image_formatter(blurImage, img_dict['format'])
 
-        img_dict['base64_MSG'] = image_base64_MSG(img_reference, img_dict['format'])
 
-        # Numpy is used to allow easy access to data of image, python list
+    # Numpy is used to allow easy access to data of image, python list
         img_dict['data'] = numpy.array(img_data)
         img_dict['hex_array'] = []
         img_dict['binary_array'] = []
@@ -72,11 +74,12 @@ def image_data(path=Path("static/assets/"), img_list=None):  # path of static im
         img_dict['base64_GRAY'] = image_formatter(img_reference, img_dict['format'])
     return img_list  # list is returned with all the attributes for each image dictionary
 
+
 # run this as standalone tester to see data printed in terminal
 if __name__ == "__main__":
     local_path = "static/assets/"
     img_test = [
-        {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano- 256.jpeg"},
+        {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpeg"},
     ]
     items = image_data(local_path, img_test)  # path of local run
     for row in items:
@@ -104,6 +107,6 @@ if __name__ == "__main__":
         filename = local_path + row['file']
         image_ref = Image.open(filename)
         draw = ImageDraw.Draw(image_ref)
-        #draw.text((0, 0), "Size is {0} X {1}".format(*row['size']))  # draw in image
+        draw.text((0, 0), "Size is {0} X {1}".format(*row['size']))  # draw in image
         image_ref.show()
 print()
