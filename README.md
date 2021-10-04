@@ -30,7 +30,7 @@ Gigi, Neha, Jessie, Shruti,
 | Jessie | Logic Gates |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109511)|-/4|
 | Shruti | Color Codes <br> Floating Point | [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493)<br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109521) | -/4|
 
-# College Board Live Grade
+### College Board Live Grade
 | Name | TT & TPT Notes | Grade |
 | ---  |  ---           | ---   |
 | Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| -/2|
