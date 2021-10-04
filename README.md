@@ -17,7 +17,7 @@ Gigi, Neha, Jessie, Shruti,
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 ## Table of Contents
- [Week 6] (https://github.com/gigiguan/flask_portfolio#week-6)
+ [Week 6](https://github.com/gigiguan/flask_portfolio#week-6)
  [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
 
 ## Week 6
