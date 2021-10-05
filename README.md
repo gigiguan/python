@@ -2,9 +2,9 @@
 
 # Team Python
 ## Scrum Board
-[Scrum Board] (https://github.com/gigiguan/flask_portfolio/projects/1)
+[Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1)
 
-Gigi, Neha, Jessie, Shruti,
+Gigi, Neha, Jessie, Shruti
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
 
@@ -17,8 +17,27 @@ Gigi, Neha, Jessie, Shruti,
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 ## Table of Contents
- [Week 6](https://github.com/gigiguan/flask_portfolio#week-6)  <br>
- [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
+[Week 7](https://github.com/gigiguan/flask_portfolio#week-7)
+[Week 6](https://github.com/gigiguan/flask_portfolio#week-6) 
+[Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
+
+## Week 7
+### Self Grade
+| Name | Tasks | Tickets | Grade |
+| ---  |  ---  | ----    | ---   |
+| Gigi | Multiply and Divide <br> Extend/Switch ASCII to Unicode| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109459) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109484)| -/4|
+| Neha | Unsigned Addition <br> Signed Addition| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109505) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109516) | -/4 |
+| Jessie | Logic Gates |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109511)|-/4|
+| Shruti | Color Codes <br> Floating Point | [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493)<br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109521) | -/4|
+
+### College Board Live Grade
+| Name | TT & TPT Notes | Grade |
+| ---  |  ---           | ---   |
+| Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| -/2|
+| Neha | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| -/2 |
+| Jessie | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)|-/2|
+| Shruti | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| -/2 |
+
 
 ## Week 6
 ### Self Grade 
