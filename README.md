@@ -2,7 +2,7 @@
 
 # Team Python
 ## Scrum Board
-[Scrum Board] (https://github.com/gigiguan/flask_portfolio/projects/1)
+[Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1)
 
 Gigi, Neha, Jessie, Shruti,
 
