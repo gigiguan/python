@@ -4,7 +4,7 @@
 ## Scrum Board
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1)
 
-Gigi, Neha, Jessie, Shruti,
+Gigi, Neha, Jessie, Shruti
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
 
