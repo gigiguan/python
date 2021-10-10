@@ -76,6 +76,7 @@ def theme():
 
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
+    print("are we here???")
     BITS=8
     imgBulbOn = "static/assets/openbook.jpg"
     if request.form:
@@ -111,6 +112,7 @@ def electives():
 def RGB():
     path = Path(app.root_path) / "static" / "assets"
     return render_template('RGB.html', images=image_data(path))
+
 
 # runs the application on the development server
 if __name__ == "__main__":
