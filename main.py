@@ -112,6 +112,12 @@ def RGB():
     path = Path(app.root_path) / "static" / "assets"
     return render_template('RGB.html', images=image_data(path))
 
+@app.route('/Logic Gates/')
+def Logicgates():
+    path = Path(app.root_path) / "static" / "assets"
+    return render_template('Logicgates.html', images=image_data(path))
+
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
