@@ -76,6 +76,7 @@ def theme():
 
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
+    print("are we here???")
     BITS=8
     imgBulbOn = "static/assets/openbook.jpg"
     if request.form:
