@@ -13,7 +13,7 @@
 <!-- Hack: Set bulbs and pass as variables via Python render_template
            add new images (ie PNGs) to project -->
 <!-- use your PNGs as default -->
-{#% set imgBulbOn = "/static/assets/openbook.jpg" %#}
+{% set imgBulbOn = "/static/assets/openbook.jpg" %}
 {% set imgBulbOff = "/static/assets/closedbook.jpg" %}
 {% set msgTurnOn = "Turn On" %}
 {% set msgTurnOff = "Turn Off" %}
@@ -325,7 +325,7 @@
                                     </button>
                                 </td>
                             {% endfor %}
-                            <td>blank</td>
+                            <td></td>
                             <td id="val-{{color}}" >0</td>
                         </tr>
                     {% endfor %}

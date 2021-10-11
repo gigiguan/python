@@ -65,7 +65,7 @@
 
     {% block body %}
         <h1 class="text-center">Logic Gate Lab</h1>
-        <div class="dark1border" style="text-align: center; margin: 0px 30px 10px 30px;border-top-width: 0.5px; border-bottom-width: 0.5px; border-top-style: dashed; border-bottom-style: dashed;"></div>
+        <div class="dark1border" style="text-align: center; margin: 0px 20px 10px 20px;border-top-width: 0.5px; border-bottom-width: 0.5px; border-top-style: dashed; border-bottom-style: dashed;"></div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-3">
@@ -93,7 +93,7 @@
                         {% for item in imageList %}
                             <tr>
                                 <td class="col-3">
-                                    <img class="img-responsive py-3" id="{{ gate[loop.index0] }}" alt="" width="256" height="Auto" src="/static/assets/{{ item }}" >
+                                    <img class="img-responsive py-3" id="{{ gate[loop.index0] }}" alt="" width="400" height="Auto" src="/static/assets/{{ item }}" >
                                 </td>
                                 <td class="col-3"> {{ textList[loop.index0] }}</td>
                                 <td id="{{ textGate[loop.index0] }}" class="col-3">{{ result[loop.index0] }}</td>

@@ -76,9 +76,10 @@ def theme():
 
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
+    print("are we here???")
     BITS=8
     imgBulbOn = "static/assets/openbook.jpg"
-    if request.form == 'POST':
+    if request.form:
         BITS = int(request.form.get("BITS"))
         imgBulbOn = request.form['lightOn']
     return render_template("binary.html", imgBulbOn=imgBulbOn, BITS=BITS)
@@ -118,6 +119,13 @@ def Logicgates():
     return render_template('Logicgates.html', images=image_data(path))
 
 
+@app.route('/unsigned addition/', methods=['GET', 'POST'])
+def unsigned_addition():
+    return render_template("unsigned addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
+
+@app.route('/signed addition/', methods=['GET', 'POST'])
+def signed_addition():
+    return render_template("signed addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
 
 # runs the application on the development server
 if __name__ == "__main__":
