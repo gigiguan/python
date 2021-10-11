@@ -42,17 +42,9 @@
              DOM assignment by converting decimal https://www.w3schools.com/jsref/jsref_fromcharcode.asplook
              below ASCII for more ideas of where to make changes
              */
-            if (decimal < 32) {
-                document.getElementById('ascii').innerHTML = 'NPC'
-            } else if (decimal==32) {
-                document.getElementById('ascii').innerHTML = 'space'
-            } else {
-                document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(decimal));
 
-        }
-            document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(binary, 2))
+            document.getElementById('unicode').innerHTML = String.fromCharCode(parseInt(binary, 2))
 
-            document.getElementById('RGB').innerHTML = String.fromCharCode(parseInt(binary, 8))
 
         }
 
@@ -72,6 +64,70 @@
                 }
             }
             return conversion;
+        }
+        function updateBit(number, bitPosition, bitValue) {
+            console.log(number);
+            console.log(bitPosition);
+            console.log(bitValue);
+
+            const clearMask = ~(1 << bitPosition);
+            return (number & clearMask) | (bitValue << bitPosition);
+        }
+        function updateColorPane() {
+            const valueCtrlRed = document.getElementById('val-' + 0);
+            const valueCtrlGreen = document.getElementById('val-' + 1);
+            const valueCtrlBlue = document.getElementById('val-' + 2);
+            const colorCtrl = document.getElementById('rgb');
+            const colorVal = document.getElementById('rgb-val');
+
+            let red = valueCtrlRed.innerHTML;
+            let green = valueCtrlGreen.innerHTML;
+            let blue = valueCtrlBlue.innerHTML;
+
+            let rgb = 'rgb(' + red + ',' + green + ',' + blue + ')';
+            console.log(rgb);
+            colorCtrl.style.background=rgb;
+            colorVal.innerHTML="#"
+                + ('0' + Number(red).toString(16)).slice(-2)
+                + ('0' + Number(green).toString(16)).slice(-2)
+                + ('0' + Number(blue).toString(16)).slice(-2);
+        }
+        function toggleButBit(row, col) {
+            console.log('row: ' + row + ', col: ' + col);
+            const valueCtrl = document.getElementById('val-' + row);
+
+            const buttonCtrl = document.getElementById('butt-' + row + '-' + col);
+
+            let value = valueCtrl.innerHTML;
+            let bit = buttonCtrl.value;
+
+            console.log('bit before: ' + bit);
+            console.log('value before: ' + value);
+
+            // bitValue ? 1 : 0
+
+            if (bit == 0) {
+                bit = 1;
+            } else {
+                bit = 0;
+            }
+
+            console.log('bit after: ' + bit);
+
+            value = updateBit(value, col, bit)
+
+            console.log('Value: ' + value);
+            console.log('Bit:' + bit);
+
+            console.log('valueCtrl: ' + valueCtrl);
+            console.log('buttonCtrl: ' + buttonCtrl);
+
+            valueCtrl.innerHTML = value;
+            buttonCtrl.value = bit;
+            buttonCtrl.innerHTML = bit;
+            (bit ? buttonCtrl.style.background='#FFFFFF' : buttonCtrl.style.background='#000000');
+            (bit ? buttonCtrl.style.color='#000000' : buttonCtrl.style.color='#FFFFFF');
+            updateColorPane();
         }
         // toggle selected bit and recalculate
         function toggleBit(i) {
@@ -120,6 +176,33 @@
                 }
             }
         }
+        function times(n) {
+            let binary = getBits();
+            // convert to decimal and do math
+            let decimal = parseInt(binary, 2);
+            if (n > 1) {  // PLUS
+                decimal = MAX === decimal ? 0 : decimal *= n; // OVERFLOW or PLUS
+            } else  {     // MINUS
+                decimal = 0 === decimal ? MAX : decimal *= n; // OVERFLOW or MINUS
+            }
+            // convert the result back to binary
+            binary = decimal_2_base(decimal, 2);
+            // update conversions
+            setConversions(binary);
+            // update bits
+            for (let i = 0; i < binary.length; i++) {
+                let digit = binary.substr(i, 1);
+                document.getElementById('digit' + i).value = digit;
+                if (digit === "1") {
+                    document.getElementById('bulb' + i).src = "{{ imgBulbOn }}";
+                    document.getElementById('butt' + i).innerHTML = "{{ msgTurnOff }}";
+                } else {
+                    document.getElementById('bulb' + i).src = "{{ imgBulbOff }}";
+                    document.getElementById('butt' + i).innerHTML = "{{ msgTurnOn }}";
+                }
+            }
+        }
+
     </script>
 {% endblock %}
 
@@ -137,13 +220,9 @@
                         <p> Choose a Lightbulb </p>
                         <input type = "radio" name="lightOn" value="/static/assets/openbook.jpg" checked>
                         <img src="/static/assets/openbook.jpg" >
-                        <img src="/static/assets/bulb_on.jpg" >
                         <input type = "radio" name="lightOn" value="/static/assets/book 2.jpg">
                         <img src="/static/assets/book 2.jpg" >
-                        <input type = "radio" name="lightOn" value="static/assets/bulb_on.jpg" >
-                        <img src="/static/assets/bulb_on.jpg" >
                         <br>
-
                         <input type="submit" name="bits1" value="Set Bits">
                     </form>
                 </div>
@@ -154,26 +233,29 @@
             <div class="col-8">
                 <table class="table">
                     <tr id="table">
+                        <th>Shift Left(*2)</th>
                         <th>Plus</th>
                         <th>Binary</th>
                         <th>Octal</th>
                         <th>Hexadecimal</th>
                         <th>Decimal</th>
-                        <th>ASCII</th>
+                        <th>Unicode</th>
+
                         <!-- Hack: display ASCII label for printable character(s)  -->
-                        <th>RGB</th>
                         <th>Minus</th>
+                        <th>Shift Right(/2)</th>
                     </tr>
                     <tr>
+                        <td><button type="button" id="times2" onclick="times(2)"><<</button></td>
                         <td><button type="button" id="add1" onclick="add(1)">+1</button></td>
                         <td id="binary">00000000</td>
                         <td id="octal">0</td>
                         <td id="hexadecimal">0</td>
                         <td id="decimal">0</td>
-                        <td id="ascii">null</td>
+                        <td id="unicode">null</td>
                         <!-- Hack: display ASCII printable character(s)  -->
-                        <td id="RGB">0</td>
                         <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
+                        <td><button type="button" id="divide2" onclick="times(1/2)">>></button></td>
 
                     </tr>
                 </table>
@@ -186,7 +268,7 @@
                             {%  if i % 8 == 8 %}
                             <td>
                             {%  endif %}
-                            <td><input typo="text" id='digit{{ i }}' Value="8" size ="1" readonly></td>
+                            <td><input type="text" id='digit{{ i }}' Value="8" size ="1" readonly></td>
                             <td><img class="img-responsive py-3" id="bulb{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto">
                                 <button type="button" id="butt{{i}}" onclick="toggleBit('{{i}}')">{{ msgTurnOn }}</button>
                             </td>
@@ -198,5 +280,91 @@
 
                 </table>
             </div>
+   <!----------------------------------------RGB below---------------------------------------------------------->
+    <div class="col-12">
+        <div class="row">
+            <table class="table">
+                <h2 class="text-right">Color Wheel</h2>
+                <div>
+                    {% for color in range(3) %} {# we just want 3 rows for Red Green Blue #}
+                        <tr>
+                            {% for i in range(7, -1, -1) %} {# we just want 8 bits per row #}
+                                <td style="width:100px">
+                                    <button style="width:100px; background-color: #000000; color: white;"
+                                        type="button" value="0"
+                                        id="butt-{{color}}-{{i}}"
+                                        onclick="toggleButBit('{{ color }}', '{{i}}')">
+                                        0
+                                    </button>
+                                </td>
+                            {% endfor %}
+                            <td>blank</td>
+                            <td id="val-{{color}}" >0</td>
+                        </tr>
+                    {% endfor %}
+                </div>
+            </table>
+        </div>
+    </div>
+    <div class="col-12" id="rgb" style="height: 100px; background-color: rgb(0,0,0);"></div>
+    <div class="col-12">
+        <p id="rgb-val" class="text-center">#000000</p>
+    </div>
+    <!----------------------------------------RGB above---------------------------------------------------------->
+    <div class="col-12">
+        <div class="row">
+            <table class="table">
+                <div>
+                    {% for i in range(BITS) %} {# we just want 8 bits per row #}
+                        {% if i % 8 == 0 %} {# this is a modulo operation where if the index is divisible by 8 then a table row gets created and if the index + 1 is divisible by 8 then the table row is ended #}
+                            <tr>
+                        {% endif %}
+                    <td><img class="img-responsive py-3" id="bulb1{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto"> {# this sets the default image to off and creates the id for the image #}
+                        <button type="button" id="butt1{{i}}" onclick="toggleBit('{{i}}', 'bulb1', 'butt1', 'digit1')">{{ msgTurnOn }}</button>
+                        <input type='text' id='digit1{{i}}' Value="0" size="1" readonly></td>{# this sets the default message to off and calls the function "toggleBit" on the click of the button which is found in the javascript #}
+                    </td>
+                    {% if i + 1 % 8 == 0 or i == BITS %} {# this is the modulo operation for the end row #}
+                        var c = 0xff03c0; // 16712640
+                        var components = {
+                        r: (c & 0xff0000) >> 16,
+                        g: (c & 0x00ff00) >> 8,
+                        b: (c & 0x0000ff)
+                        };
+                        </tr>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="row">
+            <table class="table">
+                <div>
+                    {% for i in range(BITS) %} {# we just want 8 bits per row #}
+                        {% if i % 8 == 0 %} {# this is a modulo operation where if the index is divisible by 8 then a table row gets created and if the index + 1 is divisible by 8 then the table row is ended #}
+                            <tr>
+                        {% endif %}
+                    <td><img class="img-responsive py-3" id="bulb2{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto"> {# this sets the default image to off and creates the id for the image #}
+                        <button type="button" id="butt2{{i}}" onclick="toggleBit('{{i}}', 'bulb2', 'butt2', 'digit2')">{{ msgTurnOn }}</button>
+                        <input type='text' id='digit2{{i}}' Value="0" size="1" readonly></td>{# this sets the default message to off and calls the function "toggleBit" on the click of the button which is found in the javascript #}
+                    </td>
+                    {% if i + 1 % 8 == 0 or i == BITS %} {# this is the modulo operation for the end row #}
+                        var c = 0xff03c0; // 16712640
+                        var components = {
+                        r: (c & 0xff0000) >> 16,
+                        g: (c & 0x00ff00) >> 8,
+                        b: (c & 0x0000ff)
+                        };
+                        </tr>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </table>
+        </div>
+    </div>
+    </div>
+
 {% endblock %}
 
