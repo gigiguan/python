@@ -20,7 +20,8 @@
 {% block meta %}
     <title>Binary page</title>
     <script>
-        const BITS = '{{ BITS }}'; let max = '{{ MAX }}'; let MAX = parseInt(max, 10);
+        const BITS = '{{ BITS }}'
+        let max = '{{ MAX }}'; let MAX = parseInt(max, 10);
         // return string with current value of each bit
         function getBits() {
             let bits = "";
@@ -36,14 +37,39 @@
             document.getElementById('octal').innerHTML = parseInt(binary, 2).toString(8);
             // DOM assignment to Hexadecimal conversion
             document.getElementById('hexadecimal').innerHTML = parseInt(binary, 2).toString(16);
+                let number = parseInt(binary, 2);
+                document.getElementById('decimal').innerHTML = parseInt(binary, 2).toString(10);
             // DOM assignment to Decimal conversion
             document.getElementById('decimal').innerHTML = parseInt(binary, 2).toString(10);
+
+
             /* Hack: show ASCII printable character(s) for each 8 bits
              DOM assignment by converting decimal https://www.w3schools.com/jsref/jsref_fromcharcode.asplook
              below ASCII for more ideas of where to make changes
              */
+            /*document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(binary, 2))
+            document.getElementById('unicode').innerHTML = String.fromCharCode(parseInt(binary, 2))*/
 
-            document.getElementById('unicode').innerHTML = String.fromCharCode(parseInt(binary, 2))
+            let ascii = String.fromCharCode(number);
+            let unicode = parseInt(binary, 2).toString(16);
+            if (unicode.length > 4) {
+                unicode = unicode.substr(unicode.length - 4, 4);
+            } else if (unicode.length == 3) {
+                unicode = "0" + unicode;
+            } else if (unicode.length == 2) {
+                unicode = "00" + unicode;
+            } else if (unicode.length == 1){
+                unicode = "000" + unicode;
+            }
+
+            unicode = "U-" + unicode;
+            if (number <= 127) {
+                document.getElementById("unicodeheader").innerHTML = "Ascii/Unicode";
+                document.getElementById("unicode").innerHTML = ascii;
+            } else {
+                document.getElementById("unicodeheader").innerHTML = "Unicode";
+                document.getElementById("unicode").innerHTML = unicode;
+            }
 
 
         }
@@ -239,7 +265,7 @@
                         <th>Octal</th>
                         <th>Hexadecimal</th>
                         <th>Decimal</th>
-                        <th>Unicode</th>
+                        <th id="unicodeheader">Unicode</th>
 
                         <!-- Hack: display ASCII label for printable character(s)  -->
                         <th>Minus</th>
@@ -253,9 +279,10 @@
                         <td id="hexadecimal">0</td>
                         <td id="decimal">0</td>
                         <td id="unicode">null</td>
+
                         <!-- Hack: display ASCII printable character(s)  -->
                         <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
-                        <td><button type="button" id="divide2" onclick="times(1/2)">>></button></td>
+                        <td><button type="button" id="divide2" onclick="times(.5)">>></button></td>
 
                     </tr>
                 </table>
