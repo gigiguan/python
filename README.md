@@ -23,12 +23,13 @@ Gigi, Neha, Jessie, Shruti
 
 ## Week 7
 ### Self Grade
+[Review Issue](https://github.com/gigiguan/flask_portfolio/projects/1#card-70279124)
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
 | Gigi | Multiply and Divide <br> Extend/Switch ASCII to Unicode| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109459) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109484)| -/4|
 | Neha | Unsigned Addition <br> Signed Addition| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109505) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109516) | -/4 |
 | Jessie | Logic Gates |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109511)|-/4|
-| Shruti | Color Codes <br> Floating Point | [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493)<br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109521) | -/4|
+| Shruti | Color Codes |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493)| -/4|
 
 ### College Board Live Grade
 | Name | TT & TPT Notes | Grade |
