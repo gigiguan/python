@@ -3,7 +3,7 @@
 # Team Python
 ## Pop Quiz 9/10
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1)
-
+[New Scum Board](https://github.com/gigiguan/python/projects/1)
 Gigi, Neha, Jessie, Shruti
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
@@ -27,18 +27,18 @@ Gigi, Neha, Jessie, Shruti
 [README Overview Video](https://user-images.githubusercontent.com/89219435/136892439-be06031e-4375-4d63-95e6-f579b9a7101d.mp4)
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
-| Gigi | Multiply and Divide <br> Extend/Switch ASCII to Unicode| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109459) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109484)| -/4|
-| Neha | Unsigned Addition <br> Signed Addition| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109505) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109516) | -/4 |
-| Jessie | Logic Gates |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109511)|-/4|
-| Shruti | Color Codes |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493)| -/4|
+| Gigi | Multiply and Divide <br> Extend/Switch ASCII to Unicode| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109459) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109484)| 6/6|
+| Neha | Unsigned Addition <br> Signed Addition| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109505) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109516) | 6/6 |
+| Jessie | Logic Gates |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109511)|6/6|
+| Shruti | Color Codes |[Ticket](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493)|6/6|
 
 ### College Board Live Grade
-| Name | TT & TPT Notes | Grade |
+| Name | TT & TPT Notes and Contributions | Grade |
 | ---  |  ---           | ---   |
-| Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| -/2|
-| Neha | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| -/2 |
-| Jessie | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)|-/2|
-| Shruti | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| -/2 |
+| Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 2/2|
+| Neha | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 2/2 |
+| Jessie | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)|2/2|
+| Shruti | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 2/2 |
 
 
 ## Week 6
