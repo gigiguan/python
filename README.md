@@ -1,7 +1,7 @@
 # DN Classes
 
 # Team Python
-## Scrum Board
+## Pop Quiz 9/10
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1)
 
 Gigi, Neha, Jessie, Shruti
