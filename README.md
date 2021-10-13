@@ -2,7 +2,7 @@
 
 # Team Python
 ## Pop Quiz 9/10
-# Gigi, Neha, Jessie, Shruti 
+### Gigi, Neha, Jessie, Shruti 
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1) <br>
 [New Scum Board](https://github.com/gigiguan/python/projects/1) 
 
