@@ -24,6 +24,7 @@ Gigi, Neha, Jessie, Shruti
 ## Week 7
 ### Self Grade
 [Review Issue](https://github.com/gigiguan/flask_portfolio/projects/1#card-70279124)
+[README Overview Video](https://user-images.githubusercontent.com/89219435/136892439-be06031e-4375-4d63-95e6-f579b9a7101d.mp4)
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
 | Gigi | Multiply and Divide <br> Extend/Switch ASCII to Unicode| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109459) <br> [Ticket 2](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109484)| -/4|
