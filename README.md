@@ -23,7 +23,7 @@ Gigi, Neha, Jessie, Shruti
 
 ## Week 7
 ### Self Grade
-[Review Issue](https://github.com/gigiguan/flask_portfolio/projects/1#card-70279124)
+[Review Issue](https://github.com/gigiguan/flask_portfolio/projects/1#card-70279124) <br>
 [README Overview Video](https://user-images.githubusercontent.com/89219435/136892439-be06031e-4375-4d63-95e6-f579b9a7101d.mp4)
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
