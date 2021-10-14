@@ -69,7 +69,7 @@
 | Shruti | [Journal](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)| 3/3  |
 
 # Website Progress
-#### idea implementation started Monday, August 30, 2021
+#### Idea implementation started Monday, August 30, 2021
 #### Separate pages for advanced classes (AP, honors) and regular classes
 #### WebPage with four classes: history, math, science, and english
 #### Add scaled 1~5 ratings of how hard the classes are
@@ -81,6 +81,6 @@
 #### The Python code constructs WSGI relationships for math, english, science, and history, etc
 #### WSGI templates: math.html, science.html, ... are aligned with routes in main.py.
 #### mini_labs.html page includes Greet project, video journal 0
-#### created website main page with classes named in theme.html
+#### Created website main page with classes named in theme.html
 
 
