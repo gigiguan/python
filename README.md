@@ -1,11 +1,11 @@
 # DN Classes
-#### DN Classes is an interactive website that allows for students to learn more about classes offered and avail resources in each subject. We offer information on subjects including: history, math, reading, fine arts, social science, and science. Here are links to our [wireframe](https://docs.google.com/document/d/1-n-8hx8C_euslSGyv5ZKifDJhc5ILL_KvYUhAxxRBgw/edit?usp=sharing) and [brainstorm](https://docs.google.com/document/d/1GDL2P5qHNYJSxuEmO7BghdSnI1gzuHCjeGk1Jzixv_0/edit?usp=sharing)
+#### DN Classes is an interactive website that allows for students to learn more about classes offered and avail resources in each subject. We offer information on subjects including: history, math, reading, fine arts, social science, and science. Here are links to our [wireframe](https://docs.google.com/document/d/1-n-8hx8C_euslSGyv5ZKifDJhc5ILL_KvYUhAxxRBgw/edit?usp=sharing) and [brainstorm](https://docs.google.com/document/d/1GDL2P5qHNYJSxuEmO7BghdSnI1gzuHCjeGk1Jzixv_0/edit?usp=sharing).
 # Team Python
 ## Pop Quiz 9/10
 
 ### Members: Gigi, Neha, Jessie, Shruti 
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1) <br>
-[New Scum Board](https://github.com/gigiguan/python/projects/1) 
+[New Scrum Board](https://github.com/gigiguan/python/projects/1) 
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
 
