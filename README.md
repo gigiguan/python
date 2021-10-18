@@ -30,7 +30,7 @@
 | Gigi | Joke Generator <br> Wireframe| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| /5|
 | Neha | Greyscale PBL <br> Update DN Classes pages/navbar| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /5 |
 | Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|/5|
-| Shruti | Presentation Introduction <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) <br> [Ticket 3](https://github.com/gigiguan/python/projects/1#card-70960865)|/5|
+| Shruti | Presentation Intro <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) <br> [Ticket 3](https://github.com/gigiguan/python/projects/1#card-70960865)|/5|
 
 ### College Board Live Grade
 | Name | TT & TPT Notes and Contributions | Grade |
