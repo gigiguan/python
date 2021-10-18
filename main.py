@@ -2,7 +2,18 @@
 from flask import Flask, render_template
 from flask import request
 from image import image_data
-from pathlib import Path
+
+from flask import Blueprint, render_template
+
+from pathlib import \
+    Path  # https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
+
+app_starter = Blueprint('starter', __name__,
+                        url_prefix='/starter',
+                        template_folder='templates',
+                        static_folder='static',
+                        static_url_path='assets')
+
 # create a Flask instance
 app = Flask(__name__)
 
@@ -10,7 +21,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template("index.html")
-
 
 @app.route('/gigi', methods=['GET', 'POST'])
 def gigi():
@@ -21,7 +31,6 @@ def gigi():
             return render_template("gigi.html", name=name)
     # starting and empty input default
     return render_template("gigi.html", name="World")
-
 
 @app.route('/jessie', methods=['GET', 'POST'])
 def jessie():
@@ -121,6 +130,7 @@ def unsigned_addition():
 @app.route('/signed addition/', methods=['GET', 'POST'])
 def signed_addition():
     return render_template("signed addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
+
 
 # runs the application on the development server
 if __name__ == "__main__":
