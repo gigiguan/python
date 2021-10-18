@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+{% extends "layouts/base.html" %}
+<html>
+<body>
+
+{% block body %}
+    <html>
+    <body>
+    <h1 class="text-center">AP European History</h1>
+    <div class="container">
+        <div class="row justify-content-md-center">
+        </div>
+    <p style="text-align:center;"><button onclick="myFunction()">Click to Greyscale</button><br><br></p>
+    <p style="text-align:center;"><button onclick="myFunction2()">Click to Color</button><br><br></p>
+
+    <p style="text-align:center;"><img id="myImg" src="https://www.dhr.history.vt.edu/modules/eu/images/fp_bkg_middle.jpg" alt="DHR :: European History" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 1000px; height: 300px; margin: 122.4px 0px;"></p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myImg").style.filter = "grayscale(100%)";
+        }
+        function myFunction2() {
+            document.getElementById("myImg").style.filter = "grayscale(0%)";
+        }
+    </script>
+
+    </body>
+    </html>
+
+    <p class="text-left">Description: Advanced Placement European History 1-2 covers the economic, political and cultural forces in Western civilization from the mid-Seventeenth to the Twentieth Century.
+    </p>
+
+
+    <p class="text-left">Requirements: This course meets the World History requirement for high school graduation. This course has been approved to meet the UC/CSU “a” or “g” requirement.</p>
+
+    <p><a href="https://apstudents.collegeboard.org/courses/ap-european-history">Link to AP Exam Information on College Board</a></p>
+
+    <style>
+        table, th, td {
+            border:3px solid black;
+        }
+    </style>
+    <table style="width:100%">
+        <tr>
+            <th>Units of Study</th>
+            <th>Description</th>
+
+        </tr>
+        <tr>
+            <td>Unit 1: Renaissance and Exploration</td>
+            <td>You’ll explore the rapid changes sparked in the Renaissance and trace their legacy through colonialism and a commercial revolution that changed the shape of European society.</td>
+        </tr>
+        <tr>
+            <td>Unit 2: Age of Reformation</td>
+            <td>You’ll chart the evolving strains of Christianity in Europe and the far-reaching effects of the Reformation on daily and political life.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 3: Absolutism and Constitutionalism</td>
+            <td>You’ll study developments in political power and how they affected the relationships among states and between states and individuals. You’ll also learn about the social, political, and cultural conditions resulting from economic developments in Europe.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 4: Scientific, Philosophical, and Political Developments</td>
+            <td>You’ll study how scientific thinking and new strains of political thought combined with technological advances transformed much of 18th-century life in Europe.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 5: Conflict, Crisis, and Reaction in the Late 18th Century</td>
+            <td>You’ll chart England’s increasing role in European matters and the reverberations of the French Revolution across Europe.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 6: Industrialization and Its Effects</td>
+            <td>You’ll learn about the transformational effects of the Industrial Revolution, technology, and urbanization on European society and political thought.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 7: 19th-Century Perspectives and Political Developments</td>
+            <td>You’ll explore how the political forces of nationalism and shifting alliances set the stage for World War I.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 8: 20th-Century Global Conflicts</td>
+            <td>You’ll learn about the great upheavals of the 20th century, as well as cultural developments and changing political structures.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 9: Cold War and Contemporary Europe</td>
+            <td>You’ll study how competing ideologies and global superpowers came to define much of the latter half of the 20th century.</td>
+        </tr>
+    </table>
+
+{% endblock %}
+</body>
+</html>
+
+{% block background %}
+{% endblock %}

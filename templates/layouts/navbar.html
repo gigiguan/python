@@ -9,9 +9,9 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <!-- url_for is a Jinja2 pre-processor that finds route from function name (def) -->
-            <a class="nav-link" href={{ url_for('index') }}>Portfolio</a>
+            <a class="nav-link" href={{ url_for('index') }}>Home Page</a>
             <!-- stub is shown using the name of the route -->
-            <a class="nav-link" href={{ url_for('theme') }}>Theme</a>
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     About Us
@@ -44,10 +44,73 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Classes
+                    Electives
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/electives/">Electives</a>
+                    <a class="dropdown-item" href="/english/">English</a>
+                    <a class="dropdown-item" href="/fine arts/">Fine Arts</a>
+                    <a class="dropdown-item" href="/history/">History</a>
+                    <a class="dropdown-item" href="/math/">Math</a>
+                    <a class="dropdown-item" href="/science/">Science</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    English
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/apel/">AP English Language</a>
+                    <a class="dropdown-item" href="/aplit/">AP Literature</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Fine Arts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/electives/">Electives</a>
+                    <a class="dropdown-item" href="/english/">English</a>
+                    <a class="dropdown-item" href="/fine arts/">Fine Arts</a>
+                    <a class="dropdown-item" href="/history/">History</a>
+                    <a class="dropdown-item" href="/math/">Math</a>
+                    <a class="dropdown-item" href="/science/">Science</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    History
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/apeuro/">AP European History</a>
+                    <a class="dropdown-item" href="/apush/">AP United States History</a>
+                    <a class="dropdown-item" href="/apgov/">AP Government and Politics</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Math
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/electives/">Electives</a>
+                    <a class="dropdown-item" href="/english/">English</a>
+                    <a class="dropdown-item" href="/fine arts/">Fine Arts</a>
+                    <a class="dropdown-item" href="/history/">History</a>
+                    <a class="dropdown-item" href="/math/">Math</a>
+                    <a class="dropdown-item" href="/science/">Science</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Science
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/apbio/">AP Biology</a>
                     <a class="dropdown-item" href="/english/">English</a>
                     <a class="dropdown-item" href="/fine arts/">Fine Arts</a>
                     <a class="dropdown-item" href="/history/">History</a>
