@@ -1,10 +1,11 @@
 # DN Classes
-#### DN Classes is an interactive website that allows for students to learn more about classes offered and avail resources in each subject. We offer information on subjects including: history, math, reading, fine arts, social science, and science. Here are links to our [wireframe](https://docs.google.com/document/d/1-n-8hx8C_euslSGyv5ZKifDJhc5ILL_KvYUhAxxRBgw/edit?usp=sharing) and [brainstorm](https://docs.google.com/document/d/1GDL2P5qHNYJSxuEmO7BghdSnI1gzuHCjeGk1Jzixv_0/edit?usp=sharing)
+#### DN Classes is an interactive website that allows for students to learn more about classes offered and avail resources in each subject. We offer information on subjects including: history, math, reading, fine arts, social science, and science. Here are links to our [wireframe](https://docs.google.com/document/d/1-n-8hx8C_euslSGyv5ZKifDJhc5ILL_KvYUhAxxRBgw/edit?usp=sharing) and [brainstorm](https://docs.google.com/document/d/1GDL2P5qHNYJSxuEmO7BghdSnI1gzuHCjeGk1Jzixv_0/edit?usp=sharing).
 # Team Python
 ## Pop Quiz 9/10
+
 ### Members: Gigi, Neha, Jessie, Shruti 
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1) <br>
-[New Scum Board](https://github.com/gigiguan/python/projects/1) 
+[New Scrum Board](https://github.com/gigiguan/python/projects/1) 
 
 [Pairs and Journals](https://docs.google.com/document/d/1OTuAEX9h0HXzEPxO9pekejI_wIBwtealaWx4LRvA0sQ/edit?usp=sharing)
 
@@ -16,10 +17,28 @@
 | Jessie | [@parkjessie](https://github.com/parkjessie) | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Aparkjessie) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=parkjessie) |
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
-## Table of Contents
-[Week 7](https://github.com/gigiguan/flask_portfolio#week-7)
-[Week 6](https://github.com/gigiguan/flask_portfolio#week-6) 
+# Table of Contents
+[Week 8](https://github.com/gigiguan/flask_portfolio#week-8) <br>
+[Week 7](https://github.com/gigiguan/flask_portfolio#week-7)<br>
+[Week 6](https://github.com/gigiguan/flask_portfolio#week-6)<br>
 [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
+
+## Week 8
+[Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
+| Name | Tasks | Tickets | Grade |
+| ---  |  ---  | ----    | ---   |
+| Gigi | Joke Generator <br> Wireframe| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| /5|
+| Neha | Greyscale PBL <br> Update DN Classes pages/navbar| [Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109505) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /5 |
+| Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109511) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|/5|
+| Shruti | Presentation Introduction <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) <br> [Ticket 3](https://github.com/gigiguan/python/projects/1#card-70960865)|/5|
+
+### College Board Live Grade
+| Name | TT & TPT Notes and Contributions | Grade |
+| ---  |  ---           | ---   |
+| Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| /3|
+| Neha | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| /3 |
+| Jessie | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)|/3|
+| Shruti | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| /3 |
 
 ## Week 7
 ### Self Grade
