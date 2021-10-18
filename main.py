@@ -70,10 +70,6 @@ def mini_labs():
     # starting and empty input default
     return render_template("mini_labs.html", name="World")
 
-@app.route('/theme/')
-def theme():
-    return render_template("theme.html")
-
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
     BITS=8
@@ -83,29 +79,29 @@ def binary():
         imgBulbOn = request.form['lightOn']
     return render_template("binary.html", imgBulbOn=imgBulbOn, BITS=BITS)
 
-@app.route('/english/')
-def english():
-    return render_template("english.html")
+@app.route('/apush/')
+def apush():
+    return render_template("apush.html")
 
-@app.route('/history/')
-def history():
-    return render_template("history.html")
+@app.route('/apel/')
+def apel():
+    return render_template("apel.html")
 
-@app.route('/math/')
-def math():
-    return render_template("math.html")
+@app.route('/aplit/')
+def aplit():
+    return render_template("aplit.html")
 
-@app.route('/science/')
-def science():
-    return render_template("science.html")
+@app.route('/apbio/')
+def apbio():
+    return render_template("apbio.html")
 
-@app.route('/fine arts/')
-def finearts():
-    return render_template("fine arts.html")
+@app.route('/apgov/')
+def apgov():
+    return render_template("apgov.html")
 
-@app.route('/electives/')
-def electives():
-    return render_template("electives.html")
+@app.route('/apeuro/')
+def apeuro():
+    return render_template("apeuro.html")
 
 @app.route('/RGB/')
 def RGB():
