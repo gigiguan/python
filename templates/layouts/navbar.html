@@ -12,6 +12,7 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
             <a class="nav-link" href={{ url_for('index') }}>Home Page</a>
             <!-- stub is shown using the name of the route -->
 
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     About Us
@@ -21,7 +22,7 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                     <a class="dropdown-item" href="/gigi">About Gigi</a>
                     <a class="dropdown-item" href="/jessie">About Jessie</a>
                     <a class="dropdown-item" href="/shruti/">About Shruti</a>
-                    <a class="dropdown-item" href="/starter/joke">Jokes</a>
+
 
                 </div>
             </li>
@@ -45,6 +46,9 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
 
                 </div>
             </li>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href={{ url_for('starter.joke') }}>Class Jokes</a>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

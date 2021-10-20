@@ -18,27 +18,37 @@
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 # Table of Contents
+[Week 9](https://github.com/gigiguan/flask_portfolio#week-9) <br>
 [Week 8](https://github.com/gigiguan/flask_portfolio#week-8) <br>
 [Week 7](https://github.com/gigiguan/flask_portfolio#week-7)<br>
 [Week 6](https://github.com/gigiguan/flask_portfolio#week-6)<br>
 [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
 
+## Week 9
+[Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
+| Name | Tasks | Tickets | Grade |
+| ---  |  ---  | ----    | ---   |
+| Gigi | Joke Generator <br> Wireframe| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| /8 and /3|
+| Neha | Joke Generator| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /8 and /3 |
+| Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|/8 and /3|
+| Shruti | Presentation Intro <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) |/8 and /3|
+
 ## Week 8
 [Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
-| Gigi | Joke Generator <br> Wireframe| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| /5|
-| Neha | Greyscale PBL <br> Update DN Classes pages/navbar| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /5 |
-| Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|/5|
-| Shruti | Presentation Intro <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) <br> [Ticket 3](https://github.com/gigiguan/python/projects/1#card-70960865)|/5|
+| Gigi | Joke Generator <br> Wireframe| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| 4.5/5|
+| Neha | Greyscale PBL <br> Update DN Classes pages/navbar| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| 4.5/5 |
+| Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|4.5/5|
+| Shruti | Presentation Intro <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) <br> [Ticket 3](https://github.com/gigiguan/python/projects/1#card-70960865)|4.5/5|
 
 ### College Board Live Grade
 | Name | TT & TPT Notes and Contributions | Grade |
 | ---  |  ---           | ---   |
-| Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| /3|
-| Neha | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| /3 |
-| Jessie | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)|/3|
-| Shruti | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| /3 |
+| Gigi | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 3/3|
+| Neha | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 3/3 |
+| Jessie | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)|3/3|
+| Shruti | [Journal](https://docs.google.com/document/d/1qjR5uJdeP3U1WUlTqwOw3pDQfxeGsjMOF3NGhGogUec/edit?usp=sharing)| 3/3 |
 
 ## Week 7
 ### Self Grade
