@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 {% extends "layouts/base.html" %}
-<html>
-<body>
+<style>
+    {% block body_color %}
+    :root{
+        --white: black;
+        --black: black;
+        --back_color: skyblue;
+    }
+{% endblock %}
+</style>
 
 {% block body %}
     <html>

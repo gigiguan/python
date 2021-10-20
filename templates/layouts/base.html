@@ -21,12 +21,13 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
+        {% block body_color %}
         :root{
-            --white: white;
+            --white: black;
             --black: black;
-            --green: green;
+            --back_color: skyblue;
         }
-
+        {% endblock %}
         html, body{
             margin: 0;
             height: 100%;
@@ -34,7 +35,7 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
             -moz-animation: fadein 2s; /* Firefox */
             -webkit-animation: fadein 2s; /* Safari and Chrome */
             -o-animation: fadein 2s; /* Opera */
-            background-color: var(--green);
+            background-color: var(--back_color);
             color: var(--white);
         }
 
