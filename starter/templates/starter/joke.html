@@ -4,10 +4,10 @@
 {% block body %}
     <div class="container">
 
-        <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
+        <div class="center-block" style="margin: 2% 5% 5%; color:black; font-family: gilroy,serif;">
             <div class="col-12" style="text-align: center;">
                 <h1><strong>Random Joke</strong></h1>
-                <form action={{url_for('jokes')}}>
+                <form action="/starter/joke">
                     <button>Refresh for an APUSH Joke!</button>
                 </form>
             </div>

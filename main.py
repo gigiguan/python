@@ -1,21 +1,19 @@
 # import "packages" from flask
+import requests
 from flask import Flask, render_template
 from flask import request
 from image import image_data
-
-from flask import Blueprint, render_template
+from api.webapi import api_bp
+from starter.starter import app_starter
 
 from pathlib import \
     Path  # https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
 
-app_starter = Blueprint('starter', __name__,
-                        url_prefix='/starter',
-                        template_folder='templates',
-                        static_folder='static',
-                        static_url_path='assets')
 
 # create a Flask instance
 app = Flask(__name__)
+app.register_blueprint(app_starter)
+app.register_blueprint(api_bp)
 
 # connects default URL to render index.html
 @app.route('/')
@@ -130,6 +128,7 @@ def unsigned_addition():
 @app.route('/signed addition/', methods=['GET', 'POST'])
 def signed_addition():
     return render_template("signed addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
+
 
 
 # runs the application on the development server
