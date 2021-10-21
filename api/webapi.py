@@ -9,7 +9,7 @@ api_bp = Blueprint('api', __name__,
 
 jokes = []
 joke_list = [
-    "Q: What is a snake's favorite subject at school? A: Hisssstory."
+    "Q: What is a snake's favorite subject at school? A: Hisssstory.",
     "Q: Was General Washington a handsome man? A: Yes, he was George-eous!!",
     "Q: What dance was very popular in 1776? A: Indepen-dance!",
     "Never take a victory for Grant-ed.",
