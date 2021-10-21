@@ -28,10 +28,10 @@
 [Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
 | Name | Tasks | Tickets | Grade |
 | ---  |  ---  | ----    | ---   |
-| Gigi | Joke Generator <br> Wireframe| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| /8 and /3|
-| Neha | Joke Generator| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /8 and /3 |
+| Gigi | Joke Generator <br> Weather API| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| /8 and /3|
+| Neha | Joke Generator| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /8 and /3 |
 | Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|/8 and /3|
-| Shruti | Presentation Intro <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) |/8 and /3|
+| Shruti | CSS of website <br> Format IntelliJ |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-71321544) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-71321719) |/8 and /3|
 
 ## Week 8
 [Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
