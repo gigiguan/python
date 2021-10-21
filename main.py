@@ -114,6 +114,18 @@ def apphysics():
 def apgov():
     return render_template("HISTORY/apgov.html")
 
+@app.route('/apcalcab/')
+def apcalcab():
+    return render_template("MATH/apcalcab.html")
+
+@app.route('/apcalcbc/')
+def apcalcbc():
+    return render_template("MATH/apcalcbc.html")
+
+@app.route('/apstats/')
+def apstats():
+    return render_template("MATH/apstats.html")
+
 @app.route('/apeuro/')
 def apeuro():
     return render_template("HISTORY/apeuro.html")
