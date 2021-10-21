@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% extends "layouts/base.html" %}
+<style>
+    {% block body_color %}
+        :root{
+            --white: black;
+            --black: black;
+            --back_color: #b049b0;
+        }
+    {% endblock %}
+</style>
+
+<html>
+<body>
+
+{% block body %}
+    <h1 class="text-center">AP Studio Art</h1>
+    <div class="container">
+    <div class="row justify-content-md-center">
+    </div>
+{% endblock %}
+</body>
+</html>
+
+{% block background %}
+{% endblock %}
