@@ -10,6 +10,7 @@ api_bp = Blueprint('api', __name__,
 jokes = []
 joke_list = [
     "Q: What is a snake's favorite subject at school? A: Hisssstory.",
+    "Q: What do other plants do when one of their plant friends is sad? A: Photosympathize.",
     "Q: What's the derivative of Amazon with respect to cost of shipping? A: Amazon Prime!",
     "Q: What did Cinderella say while reading a biology textbook? A: 'I hate mitosis.'",
     "Q: Was General Washington a handsome man? A: Yes, he was George-eous!!",
