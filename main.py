@@ -102,6 +102,14 @@ def aplit():
 def apbio():
     return render_template("SCIENCE/apbio.html")
 
+@app.route('/apchem/')
+def apchem():
+    return render_template("SCIENCE/apchem.html")
+
+@app.route('/apphysics/')
+def apphysics():
+    return render_template("SCIENCE/apphysics.html")
+
 @app.route('/apgov/')
 def apgov():
     return render_template("HISTORY/apgov.html")
