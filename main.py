@@ -126,6 +126,7 @@ def apcalcbc():
 def apstats():
     return render_template("MATH/apstats.html")
 
+
 @app.route('/apeuro/')
 def apeuro():
     return render_template("HISTORY/apeuro.html")
