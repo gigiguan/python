@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 {% extends "layouts/base.html" %}
+<style>
+    {% block body_color %}
+        :root{
+            --white: black;
+            --black: black;
+            --back_color: pink;
+        }
+    {% endblock %}
+</style>
+
 <html>
 <body>
 
 {% block body %}
-    <h1 class="text-center">AP English Language</h1>
+    <h1 class="text-center">AP Literature</h1>
     <div class="container">
     <div class="row justify-content-md-center">
     </div>

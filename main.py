@@ -26,9 +26,9 @@ def gigi():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("gigi.html", name=name)
+            return render_template("ABOUT/gigi.html", name=name)
     # starting and empty input default
-    return render_template("gigi.html", name="World")
+    return render_template("ABOUT/gigi.html", name="World")
 
 @app.route('/jessie', methods=['GET', 'POST'])
 def jessie():
@@ -36,14 +36,14 @@ def jessie():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("jessie.html", name=name)
+            return render_template("ABOUT/jessie.html", name=name)
     # starting and empty input default
-    return render_template("jessie.html", name="World")
+    return render_template("ABOUT/jessie.html", name="World")
 
 
 @app.route('/Neha/')
 def stub():
-    return render_template("Neha.html")
+    return render_template("ABOUT/Neha.html")
 
 
 @app.route('/greet', methods=['GET', 'POST'])
@@ -52,9 +52,9 @@ def greet():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("Neha.html", name=name)
+            return render_template("ABOUT/Neha.html", name=name)
     # starting and empty input default
-    return render_template("Neha.html", name="How's your day?")
+    return render_template("ABOUT/Neha.html", name="How's your day?")
 
 
 @app.route('/shruti/', methods=['GET', 'POST'])
@@ -63,9 +63,9 @@ def shruti():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("shruti.html", name1=name)
+            return render_template("ABOUT/shruti.html", name1=name)
     # starting and empty input default
-    return render_template("shruti.html", name1="World")
+    return render_template("ABOUT/shruti.html", name1="World")
 
 @app.route('/mini_labs', methods=['GET', 'POST'])
 def mini_labs():
@@ -73,9 +73,9 @@ def mini_labs():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("mini_labs.html", name=name)
+            return render_template("MINI_LABS/mini_labs.html", name=name)
     # starting and empty input default
-    return render_template("mini_labs.html", name="World")
+    return render_template("MINI_LABS/mini_labs.html", name="World")
 
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
@@ -84,50 +84,50 @@ def binary():
     if request.form:
         BITS = int(request.form.get("BITS"))
         imgBulbOn = request.form['lightOn']
-    return render_template("binary.html", imgBulbOn=imgBulbOn, BITS=BITS)
+    return render_template("MINI_LABS/binary.html", imgBulbOn=imgBulbOn, BITS=BITS)
 
 @app.route('/apush/')
 def apush():
-    return render_template("apush.html")
+    return render_template("HISTORY/apush.html")
 
 @app.route('/apel/')
 def apel():
-    return render_template("apel.html")
+    return render_template("ENGLISH/apel.html")
 
 @app.route('/aplit/')
 def aplit():
-    return render_template("aplit.html")
+    return render_template("ENGLISH/aplit.html")
 
 @app.route('/apbio/')
 def apbio():
-    return render_template("apbio.html")
+    return render_template("SCIENCE/apbio.html")
 
 @app.route('/apgov/')
 def apgov():
-    return render_template("apgov.html")
+    return render_template("HISTORY/apgov.html")
 
 @app.route('/apeuro/')
 def apeuro():
-    return render_template("apeuro.html")
+    return render_template("HISTORY/apeuro.html")
 
 @app.route('/RGB/')
 def RGB():
     path = Path(app.root_path) / "static" / "assets"
-    return render_template('RGB.html', images=image_data(path))
+    return render_template('MINI_LABS/RGB.html', images=image_data(path))
 
 @app.route('/Logic Gates/')
 def Logicgates():
     path = Path(app.root_path) / "static" / "assets"
-    return render_template('Logicgates.html', images=image_data(path))
+    return render_template('MINI_LABS/Logicgates.html', images=image_data(path))
 
 
 @app.route('/unsigned addition/', methods=['GET', 'POST'])
 def unsigned_addition():
-    return render_template("unsigned addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
+    return render_template("MINI_LABS/unsigned addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
 
 @app.route('/signed addition/', methods=['GET', 'POST'])
 def signed_addition():
-    return render_template("signed addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
+    return render_template("MINI_LABS/signed addition.html", BITS=8, imageOn="/static/assets/openbook.jpg", imageOff="/static/assets/closedbook.jpg")
 
 
 
