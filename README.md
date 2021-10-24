@@ -26,7 +26,7 @@
 
 ## Week 9
 | Name | Tasks | Issues | Review Ticket | Grade|
-| ---  |  ---  | ----    | ---   |
+| ---  |  ---  | ----    | ---   |---|
 | Gigi | Joke Generator <br> Weather API| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| [Review ](https://github.com/gigiguan/python/projects/1#card-71318761)|/8|
 | Neha | Joke Generator| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| [Review](https://github.com/gigiguan/python/projects/1#card-71236782)|/8|
 | Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|[Review](https://github.com/gigiguan/python/projects/1#card-71236797)|/8|
