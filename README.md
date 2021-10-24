@@ -28,7 +28,7 @@
 [Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
 | Name | Tasks | Issues | Review Ticket |
 | ---  |  ---  | ----    | ---   |
-| Gigi | Joke Generator <br> Weather API| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| [Review](https://github.com/gigiguan/python/projects/1#card-71318761)|
+| Gigi | Joke Generator <br> Weather API| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| [Review Ticket](https://github.com/gigiguan/python/projects/1#card-71318761)|
 | Neha | Joke Generator| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /8 and /3 |[Review](https://github.com/gigiguan/python/projects/1#card-71236782)|
 | Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|[Review](https://github.com/gigiguan/python/projects/1#card-71236797)|
 | Shruti | CSS of website <br> Format IntelliJ |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-71321544) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-71321719) |[Review](https://github.com/gigiguan/python/projects/1#card-71236765)|
