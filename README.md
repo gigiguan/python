@@ -31,7 +31,7 @@
 | Gigi | [Review ](https://github.com/gigiguan/python/projects/1#card-71318761)|5.83/6|
 | Neha | [Review](https://github.com/gigiguan/python/projects/1#card-71236782)|5.58/6|
 | Jessie|[Review](https://github.com/gigiguan/python/projects/1#card-71236797)|5.25/6|
-| Shruti |[Review](https://github.com/gigiguan/python/projects/1#card-71236765)|5/75/6|
+| Shruti |[Review](https://github.com/gigiguan/python/projects/1#card-71236765)|5.75/6|
 
 ## Week 8
 [Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
