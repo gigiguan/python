@@ -61,7 +61,7 @@
             } else if (unicode.length == 1){
                 unicode = "000" + unicode;
             }
-
+    /*Converting ASCII to Unicode*/
             unicode = "U-" + unicode;
             if (number <= 127) {
                 document.getElementById("unicodeheader").innerHTML = "Ascii/Unicode";
@@ -207,9 +207,9 @@
             // convert to decimal and do math
             let decimal = parseInt(binary, 2);
             if (n > 1) {  // PLUS
-                decimal = MAX === decimal ? 0 : decimal *= n; // OVERFLOW or PLUS
+                decimal = MAX === decimal ? 0 : decimal *= n; // OVERFLOW or TIMES
             } else  {     // MINUS
-                decimal = 0 === decimal ? MAX : decimal *= n; // OVERFLOW or MINUS
+                decimal = 0 === decimal ? MAX : decimal *= n; // OVERFLOW or DIVDES
             }
             // convert the result back to binary
             binary = decimal_2_base(decimal, 2);
@@ -266,8 +266,6 @@
                 <th>Hexadecimal</th>
                 <th>Decimal</th>
                 <th id="unicodeheader">Unicode</th>
-
-                <!-- Hack: display ASCII label for printable character(s)  -->
                 <th>Minus</th>
                 <th>Shift Right(/2)</th>
             </tr>
@@ -279,8 +277,6 @@
                 <td id="hexadecimal">0</td>
                 <td id="decimal">0</td>
                 <td id="unicode">null</td>
-
-                <!-- Hack: display ASCII printable character(s)  -->
                 <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
                 <td><button type="button" id="divide2" onclick="times(.5)">>></button></td>
 
