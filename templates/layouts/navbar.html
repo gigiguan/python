@@ -19,9 +19,16 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/Neha/">About Neha</a>
-                    <a class="dropdown-item" href="/gigi">About Gigi</a>
                     <a class="dropdown-item" href="/jessie">About Jessie</a>
                     <a class="dropdown-item" href="/shruti/">About Shruti</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Gigi
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/gigi">Greet</a>
+                        <a class="nav-link" href={{ url_for('starter.weather') }}>Weather</a>
+
 
 
                 </div>
@@ -50,7 +57,8 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 <div class="navbar-nav">
                     <a class="nav-link" href={{ url_for('starter.joke') }}>Class Jokes</a>
 
-            <li class="nav-item dropdown">
+
+                    <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Electives
                 </a>
