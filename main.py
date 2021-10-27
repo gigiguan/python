@@ -131,13 +131,6 @@ def apstats():
 def apeuro():
     return render_template("HISTORY/apeuro.html")
 
-@app.route('/apstudio/')
-def apstudio():
-    return render_template("FINE ARTS/apstudio.html")
-
-@app.route('/apmusic/')
-def apmusic():
-    return render_template("FINE ARTS/apmusic.html")
 
 @app.route('/apcsa/')
 def apcsa():
