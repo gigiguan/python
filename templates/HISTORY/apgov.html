@@ -10,17 +10,69 @@
     {% endblock %}
 </style>
 
-<html>
-<body>
-
 {% block body %}
     <h1 class="text-center">AP Government and Politics</h1>
     <div class="container">
     <div class="row justify-content-md-center">
     </div>
+    <p style="text-align:center;"><button onclick="myFunction()">Click to Greyscale</button><br><br></p>
+    <p style="text-align:center;"><button onclick="myFunction2()">Click to Color</button><br><br></p>
+
+    <p style="text-align:center;"><img id="myImg" src="https://www.elizabethschooldistrict.org/cms/lib/CO02201754/Centricity/Domain/166/AP-Gov-Pol.jpg" alt="Wells, Colleen / AP Government &amp;amp; Politics" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 1000px; height: 300px; margin: 122.4px 0px;"></p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myImg").style.filter = "grayscale(100%)";
+        }
+        function myFunction2() {
+            document.getElementById("myImg").style.filter = "grayscale(0%)";
+        }
+    </script>
+
+    <p class="text-left">Description: U.S. Government and Politics (Advanced Placement) is designed to give students a critical perspective on government, politics, and economics in the United States. The class involves both the study of general concepts used to interpret American governmental, political, and economical systems and the analysis of specific case studies. It also requires familiarity with the various institutions, groups, beliefs, and ideas that make up the American political reality.</p>
+
+    <p class="text-left">Requirements: This course has been approved to meet the UC/CSU “a” or "g" requirement.</p>
+
+    <p><a href="https://apstudents.collegeboard.org/courses/ap-european-history">Link to AP Exam Information on College Board</a></p>
+
+    <style>
+        table, th, td {
+            border:3px solid black;
+        }
+    </style>
+    <table style="width:100%">
+        <tr>
+            <th>Units of Study</th>
+            <th>Description</th>
+
+        </tr>
+        <tr>
+            <td>Unit 1: Foundations of American Democracy</td>
+            <td>You’ll learn how the men who created the U.S. Constitution set up a structure of government intended to stand the test of time, and how the compromises they made left some questions unresolved that continue to be debated today.</td>
+        </tr>
+        <tr>
+            <td>Unit 2: Interactions Among Branches of Government</td>
+            <td>You’ll continue to explore how the government sets and administers policy, and you’ll learn about the complexities of this process.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 3: Civil Liberties and Civil Rights</td>
+            <td>You’ll connect what you’ve learned about the founding principles of our government to the debates over how best to balance freedom and order.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 4: American Political Ideologies and Beliefs</td>
+            <td>You’ll explore the various beliefs that U.S. citizens hold about government, how these beliefs are shaped, and how they affect which policies citizens support.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 5: Political Participation</td>
+            <td>You’ll learn about the many ways that U.S. citizens can influence the decisions the government makes.</td>
+        </tr>
+    </table>
+
 {% endblock %}
-</body>
-</html>
+
 
 {% block background %}
 {% endblock %}
