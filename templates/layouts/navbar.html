@@ -19,9 +19,16 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/Neha/">About Neha</a>
-                    <a class="dropdown-item" href="/gigi">About Gigi</a>
                     <a class="dropdown-item" href="/jessie">About Jessie</a>
                     <a class="dropdown-item" href="/shruti/">About Shruti</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Gigi
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/gigi">Greet</a>
+                        <a class="nav-link" href={{ url_for('starter.weather') }}>Weather</a>
+
 
 
                 </div>
@@ -50,17 +57,16 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 <div class="navbar-nav">
                     <a class="nav-link" href={{ url_for('starter.joke') }}>Class Jokes</a>
 
-            <li class="nav-item dropdown">
+
+                    <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Electives
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/electives/">Electives</a>
-                    <a class="dropdown-item" href="/english/">English</a>
-                    <a class="dropdown-item" href="/fine arts/">Fine Arts</a>
-                    <a class="dropdown-item" href="/history/">History</a>
-                    <a class="dropdown-item" href="/math/">Math</a>
-                    <a class="dropdown-item" href="/science/">Science</a>
+                    <a class="dropdown-item" href="/apcsa/">AP Computer Science A</a>
+                    <a class="dropdown-item" href="/apcsp/">AP Computer Science Principles</a>
+                    <a class="dropdown-item" href="/appsych/">AP Psychology</a>
+                    <a class="dropdown-item" href="/aphug/">AP Human Geography</a>
                 </div>
             </li>
 
@@ -71,20 +77,6 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/apel/">AP English Language</a>
                     <a class="dropdown-item" href="/aplit/">AP Literature</a>
-                </div>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarModel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Fine Arts
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/electives/">Electives</a>
-                    <a class="dropdown-item" href="/english/">English</a>
-                    <a class="dropdown-item" href="/fine arts/">Fine Arts</a>
-                    <a class="dropdown-item" href="/history/">History</a>
-                    <a class="dropdown-item" href="/math/">Math</a>
-                    <a class="dropdown-item" href="/science/">Science</a>
                 </div>
             </li>
 

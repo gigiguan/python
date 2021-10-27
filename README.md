@@ -1,8 +1,6 @@
 # DN Classes
 #### DN Classes is an interactive website that allows for students to learn more about classes offered and avail resources in each subject. We offer information on subjects including: history, math, reading, fine arts, social science, and science. Here are links to our [wireframe](https://docs.google.com/document/d/1-n-8hx8C_euslSGyv5ZKifDJhc5ILL_KvYUhAxxRBgw/edit?usp=sharing) and [brainstorm](https://docs.google.com/document/d/1GDL2P5qHNYJSxuEmO7BghdSnI1gzuHCjeGk1Jzixv_0/edit?usp=sharing).
 # Team Python
-## Pop Quiz 9/10
-
 ### Members: Gigi, Neha, Jessie, Shruti 
 [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1) <br>
 [New Scrum Board](https://github.com/gigiguan/python/projects/1) 
@@ -25,13 +23,13 @@
 [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
 
 ## Week 9
-[Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)
-| Name | Tasks | Tickets | Grade |
-| ---  |  ---  | ----    | ---   |
-| Gigi | Joke Generator <br> Wireframe| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960865) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)| /8 and /3|
-| Neha | Joke Generator| [Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845286)| /8 and /3 |
-| Jessie | Greyscale PBL <br> Wireframe  |[Ticket 1](https://github.com/gigiguan/python/projects/1#card-70960877) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287)|/8 and /3|
-| Shruti | Presentation Intro <br> Wireframe <br> Joke Generator |[Ticket 1](https://github.com/gigiguan/flask_portfolio/projects/1#card-70109493) <br> [Ticket 2](https://github.com/gigiguan/python/projects/1#card-70845287) |/8 and /3|
+[Link to Review Doc](https://docs.google.com/document/d/1JepL2WrSsvQVwcppPoJ-bagNmzBeS4h8S_YlnfGWO3E/edit?usp=sharing)
+| Name | Review Ticket | Grade(averaged)|
+| ---  |  ---   |---|
+| Gigi | [Review ](https://github.com/gigiguan/python/projects/1#card-71318761)|5.83/6|
+| Neha | [Review](https://github.com/gigiguan/python/projects/1#card-71236782)|5.58/6|
+| Jessie|[Review](https://github.com/gigiguan/python/projects/1#card-71236797)|5.25/6|
+| Shruti |[Review](https://github.com/gigiguan/python/projects/1#card-71236765)|5.75/6|
 
 ## Week 8
 [Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)

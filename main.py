@@ -131,6 +131,23 @@ def apstats():
 def apeuro():
     return render_template("HISTORY/apeuro.html")
 
+
+@app.route('/apcsa/')
+def apcsa():
+    return render_template("ELECTIVES/apcsa.html")
+
+@app.route('/apcsp/')
+def apcsp():
+    return render_template("ELECTIVES/apcsp.html")
+
+@app.route('/appsych/')
+def appsych():
+    return render_template("ELECTIVES/appsych.html")
+
+@app.route('/aphug/')
+def aphug():
+    return render_template("ELECTIVES/aphug.html")
+
 @app.route('/RGB/')
 def RGB():
     path = Path(app.root_path) / "static" / "assets"
