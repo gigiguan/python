@@ -15,9 +15,18 @@
 
 {% block body %}
     <h1 class="text-center">AP Calculus AB</h1>
-    <div class="container">
-    <div class="row justify-content-md-center">
+    <div class="jumbotron text-center" style= "width: 1000px; height: 300px; margin: 122.4px 200px;">
+        <div class="col-md">
+            <h2> Facts About A Random Number </h2>
+            <h3>{{ x['number'] }}</h3>
+            <p>{{ x['text'] }}</p>
+            <a class="button" href="/apcalcab">Press For A New Number!</a>
+            <div class="row justify-content-md-center">
+            </div>
+        </div>
     </div>
+
+
 {% endblock %}
 </body>
 </html>

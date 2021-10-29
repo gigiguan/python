@@ -5,7 +5,7 @@ from flask import request
 from image import image_data
 from api.webapi import api_bp
 from starter.starter import app_starter
-
+import json
 from pathlib import \
     Path  # https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
 
@@ -104,6 +104,7 @@ def apbio():
 
 @app.route('/apchem/')
 def apchem():
+
     return render_template("SCIENCE/apchem.html")
 
 @app.route('/apphysics/')
@@ -116,7 +117,20 @@ def apgov():
 
 @app.route('/apcalcab/')
 def apcalcab():
-    return render_template("MATH/apcalcab.html")
+
+    url = "https://numbersapi.p.rapidapi.com/random/trivia"
+
+    querystring = {"min":"10","max":"20","fragment":"true","json":"true"}
+
+    headers = {
+        'x-rapidapi-host': "numbersapi.p.rapidapi.com",
+        'x-rapidapi-key': "2f4fb94902msh2ed8a6c271d64d9p1535e1jsn91c7cb7b9d1c"
+    }
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    output = json.loads(response.text)
+
+    print(response.text)
+    return render_template("MATH/apcalcab.html", x=output)
 
 @app.route('/apcalcbc/')
 def apcalcbc():
