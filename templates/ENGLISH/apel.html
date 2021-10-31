@@ -15,8 +15,19 @@
 
 {% block body %}
     <h1 class="text-center">AP English Language</h1>
-    <div class="container">
-    <div class="row justify-content-md-center">
+    <div class="jumbotron text-center" style= "width: 1000px; height: 300px; margin: 122.4px 200px;">
+        <div class="col-md">
+            <form action="/apel">
+                <button>Press to Learn a New Word!</button>
+            <p>{{ Y.word }}</p>
+            <p>{{ Y.definition }}</p>
+            <p>{{ Y.pronunciation }}</p>
+            </form>
+
+            <div class="row justify-content-md-center">
+            </div>
+
+        </div>
     </div>
 {% endblock %}
 </body>
