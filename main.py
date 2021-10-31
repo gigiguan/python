@@ -92,7 +92,17 @@ def apush():
 
 @app.route('/apel/')
 def apel():
-    return render_template("ENGLISH/apel.html")
+    url = "https://random-words-with-pronunciation.p.rapidapi.com/word"
+
+    headers = {
+    'x-rapidapi-host': "random-words-with-pronunciation.p.rapidapi.com",
+    'x-rapidapi-key': "4ab4681ba9mshf17197c9d59be44p17d1edjsnabe7ccc22eb5"
+    }
+
+    response = requests.request("GET", url, headers=headers)
+    output = json.loads(response.text)
+    print(response.text)
+    return render_template("ENGLISH/apel.html", Y=output)
 
 @app.route('/aplit/')
 def aplit():
