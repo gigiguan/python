@@ -17,12 +17,32 @@
     <h1 class="text-center">AP English Language</h1>
     <div class="jumbotron text-center" style= "width: 1000px; height: 300px; margin: 122.4px 200px;">
         <div class="col-md">
+            <h3>Learn a New Word!</h3>
+            <style>
+                .button {
+                    border: none;
+                    color: black;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                }
+
+                .button1 {background-color: #78be35;} /* Green */
+            </style>
+            </head>
+            <body>
+
             <form action="/apel">
-                <button>Press to Learn a New Word!</button>
-            <p>{{ Y.word }}</p>
-            <p>{{ Y.definition }}</p>
-            <p>{{ Y.pronunciation }}</p>
+                <button class="button button1">Refresh</button>
             </form>
+            <br>
+            <p><strong>Word: </strong>{{ Y[0].word }}</p>
+            <p><strong>Definition: </strong>{{ Y[0].definition }}</p>
+            <p><strong>Pronunciation: </strong>{{ Y[0].pronunciation }}</p>
 
             <div class="row justify-content-md-center">
             </div>
