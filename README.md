@@ -29,10 +29,10 @@
 [Link to Review Doc](https://docs.google.com/document/d/1JepL2WrSsvQVwcppPoJ-bagNmzBeS4h8S_YlnfGWO3E/edit?usp=sharing)
 | Name | Review Ticket | Grade(averaged)|
 | ---  |  ---   |---|
-| Gigi | [Review ](https://github.com/gigiguan/python/projects/1#card-71318761)|5.83/6|
-| Neha | [Review](https://github.com/gigiguan/python/projects/1#card-71236782)|5.58/6|
-| Jessie|[Review](https://github.com/gigiguan/python/projects/1#card-71236797)|5.25/6|
-| Shruti |[Review](https://github.com/gigiguan/python/projects/1#card-71236765)|5.75/6|
+| Gigi | [Review ](https://github.com/gigiguan/python/issues/11)|5.83/6|
+| Neha | [Review](https://github.com/gigiguan/python/issues/14)|5.58/6|
+| Jessie|[Review](https://github.com/gigiguan/python/issues/15)|5.25/6|
+| Shruti |[Review](https://github.com/gigiguan/python/issues/10)|5.75/6|
 
 ## Week 8
 [Review Issue](https://github.com/gigiguan/python/projects/1#card-70960927)

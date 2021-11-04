@@ -67,6 +67,17 @@ def shruti():
     # starting and empty input default
     return render_template("ABOUT/shruti.html", name1="World")
 
+@app.route('/Jokes', methods=['GET', 'POST'])
+def Jokes():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("Jokes.html", name=name)
+    # starting and empty input default
+    return render_template("Jokes.html", name="World")
+
+
 @app.route('/mini_labs', methods=['GET', 'POST'])
 def mini_labs():
     # submit button has been pushed
@@ -92,7 +103,17 @@ def apush():
 
 @app.route('/apel/')
 def apel():
-    return render_template("ENGLISH/apel.html")
+    url = "https://random-words-with-pronunciation.p.rapidapi.com/word"
+
+    headers = {
+    'x-rapidapi-host': "random-words-with-pronunciation.p.rapidapi.com",
+    'x-rapidapi-key': "4ab4681ba9mshf17197c9d59be44p17d1edjsnabe7ccc22eb5"
+    }
+
+    response = requests.request("GET", url, headers=headers)
+    output = json.loads(response.text)
+    print(response.text)
+    return render_template("ENGLISH/apel.html", Y=output)
 
 @app.route('/aplit/')
 def aplit():
