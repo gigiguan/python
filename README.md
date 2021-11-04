@@ -16,12 +16,15 @@
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 # Table of Contents
+[Week 10](https://github.com/gigiguan/flask_portfolio#week-10) <br>
 [Week 9](https://github.com/gigiguan/flask_portfolio#week-9) <br>
 [Week 8](https://github.com/gigiguan/flask_portfolio#week-8) <br>
 [Week 7](https://github.com/gigiguan/flask_portfolio#week-7)<br>
 [Week 6](https://github.com/gigiguan/flask_portfolio#week-6)<br>
 [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
 
+## Week 10
+[Link to Review Ticket](https://github.com/gigiguan/python/issues/16)
 ## Week 9
 [Link to Review Doc](https://docs.google.com/document/d/1JepL2WrSsvQVwcppPoJ-bagNmzBeS4h8S_YlnfGWO3E/edit?usp=sharing)
 | Name | Review Ticket | Grade(averaged)|
