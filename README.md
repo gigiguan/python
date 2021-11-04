@@ -24,7 +24,7 @@
 [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
 
 ## Week 10
-[Link to Review Ticket](https://github.com/gigiguan/python/issues/16)
+[Link to Week 10 Review Ticket](https://github.com/gigiguan/python/issues/16)
 ## Week 9
 [Link to Review Doc](https://docs.google.com/document/d/1JepL2WrSsvQVwcppPoJ-bagNmzBeS4h8S_YlnfGWO3E/edit?usp=sharing)
 | Name | Review Ticket | Grade(averaged)|
