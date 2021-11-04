@@ -67,6 +67,17 @@ def shruti():
     # starting and empty input default
     return render_template("ABOUT/shruti.html", name1="World")
 
+@app.route('/Jokes', methods=['GET', 'POST'])
+def Jokes():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("Jokes.html", name=name)
+    # starting and empty input default
+    return render_template("Jokes.html", name="World")
+
+
 @app.route('/mini_labs', methods=['GET', 'POST'])
 def mini_labs():
     # submit button has been pushed

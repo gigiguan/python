@@ -4,16 +4,36 @@
 <!- This variable sets name of browser tab  -->
 {% set project = "Stubby" %}
 
+
+
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
+    <!- Try building a new body here ->
 
-    <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
+    <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: arial,sans-serif;">
+
+    <span style="font-size: 300%; "> <p>Shruti Carti</p></span>
+
+    <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: arial,sans-serif;">
+
+    <img src="assets/shruti.png">
+
+    <span style="font-size: 150%; ">  <p> - Senior at Del Norte High School</p></span>
+
+    <span style="font-size: 150%; ">  <p> - 17 years old</p></span>
+
+    <span style="font-size: 150%; ">  <p> - Hobbies: Singing and dancing</p></span>
+
+    <span style="font-size: 150%; "> <p> - Interested in pursuing a career in STEM</p></span>
+
+
+    <div class="center-block" style="margin: 2% 5% 5%; text-align:right; font-family: gilroy,serif;">
         <div class="col-12">
-            <p>Hello, {{name1}} welcome to our page!</p>
+            <p>Hello, {{name}}!</p>
         </div>
         <div class="col-12">
-            <form action="/shruti/" id="Shruti" method="POST" >
-                <label for="name">Type your name!</label>
+            <form action="/shruti" id="shruti" method="POST" >
+                <label for="name">Type a greeting name?</label>
                 <input name="name" id="name">
                 <input type="submit" value="Greetings!">
             </form>
