@@ -140,6 +140,18 @@ def apphysics():
 
 @app.route('/apgov/')
 def apgov():
+    url = "https://google-news1.p.rapidapi.com/top-headlines"
+
+    querystring = {"country":"US","lang":"en","limit":"50"}
+
+    headers = {
+    'x-rapidapi-host': "google-news1.p.rapidapi.com",
+    'x-rapidapi-key': "05d606b5acmsha61ea83d5ac24d5p1b5c85jsn80525e9140c9"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+
+    print(response.text)
     return render_template("HISTORY/apgov.html")
 
 @app.route('/apcalcab/',methods=['GET', 'POST'])
@@ -174,7 +186,6 @@ def apstats():
 @app.route('/apeuro/')
 def apeuro():
     return render_template("HISTORY/apeuro.html")
-
 
 @app.route('/apcsa/')
 def apcsa():
