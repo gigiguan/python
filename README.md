@@ -17,7 +17,6 @@
 
 # Table of Contents
 
-[Finals/N@TM](https://github.com/gigiguan/flask_portfolio#week-12) <br>
 [Week 10](https://github.com/gigiguan/flask_portfolio#week-10) <br>
 [Week 9](https://github.com/gigiguan/flask_portfolio#week-9) <br>
 [Week 8](https://github.com/gigiguan/flask_portfolio#week-8) <br>
