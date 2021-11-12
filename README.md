@@ -16,12 +16,20 @@
 | Shruti | [@shrutiapcsp](https://github.com/shrutiapcsp)  | [Tickets](https://github.com/gigiguan/flask_portfolio/issues?q=is%3Aopen+assignee%3A%40me) | [Scrum Board](https://github.com/gigiguan/flask_portfolio/projects/1?card_filter_query=assignee%3Ashrutiapcsp) | [Commits](https://github.com/gigiguan/flask_portfolio/commits?author=shrutiapcsp) |
 
 # Table of Contents
+
+[Finals N@TM](https://github.com/gigiguan/flask_portfolio#week-12) <br>
 [Week 10](https://github.com/gigiguan/flask_portfolio#week-10) <br>
 [Week 9](https://github.com/gigiguan/flask_portfolio#week-9) <br>
 [Week 8](https://github.com/gigiguan/flask_portfolio#week-8) <br>
 [Week 7](https://github.com/gigiguan/flask_portfolio#week-7)<br>
 [Week 6](https://github.com/gigiguan/flask_portfolio#week-6)<br>
 [Week 5](https://github.com/gigiguan/flask_portfolio#week-5)
+
+## Week 12
+[Capture the Moment](https://drive.google.com/drive/folders/1ZnUFFgyZQpbB3rEWg7t3EIaPfp56tqWW?usp=sharing)
+## Retrospective Reflections
+[Shruti](https://docs.google.com/document/d/1GpllLtK0hBZhOK00pHPJIa1C4eMFT2Sapc1CwylApzU/edit?usp=sharing)
+
 
 ## Week 10
 [Link to Week 10 Review Ticket](https://github.com/gigiguan/python/issues/16)
@@ -31,7 +39,7 @@
 | ---  |  ---   |---|
 | Gigi | [Review ](https://github.com/gigiguan/python/issues/11)|5.83/6|
 | Neha | [Review](https://github.com/gigiguan/python/issues/14)|5.58/6|
-| Jessie|[Review](https://github.com/gigiguan/python/issues/15)|5.25/6|
+| Jessie| [Review](https://github.com/gigiguan/python/issues/15)|5.25/6|
 | Shruti |[Review](https://github.com/gigiguan/python/issues/10)|5.75/6|
 
 ## Week 8
