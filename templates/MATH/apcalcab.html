@@ -1,35 +1,93 @@
 <!DOCTYPE html>
 {% extends "layouts/base.html" %}
-<style>
-    {% block body_color %}
-        :root{
-            --white: black;
-            --black: black;
-            --back_color: rgba(227, 18, 46, 0.56);
-        }
-    {% endblock %}
-</style>
-
-<html>
-<body>
-
 {% block body %}
-    <h1 class="text-center">AP Calculus AB</h1>
-    <div class="jumbotron text-center" style= "width: 1000px; height: 300px; margin: 122.4px 200px;">
-        <div class="col-md">
-            <h2> Facts About A Random Number </h2>
-            <h3>{{ x['number'] }}</h3>
-            <p>{{ x['text'] }}</p>
-            <a class="button" href="/apcalcab">Press For A New Number!</a>
-            <div class="row justify-content-md-center">
+    <div class="container">
+        <div class="center-block" style="margin: 2% 5% 5%;">
+            <div class="col-12" style="text-align: center;">
+                <h1> AP Calculus AB</h1>
+                <form action={{url_for('apcalcab')}} method="POST">
+                    <label for="num1">Type a number</label>
+                    <input name="num1" id="num1" />
+                    <input type="submit" value="Press">
+                </form>
             </div>
+
+            <!-- Input and Content -->
+            <div class="jumbotron text-left row">
+                <div class="col-md">
+
+                    <h2 class="setup"><strong>{{x.number}}</strong></h2>
+                    <p class="setup"><strong>{{x.text}}</strong></p>
+
+                </div>
+            </div>-
         </div>
+    <div class="container">
+    <div class="row justify-content-md-center">
     </div>
 
+    <p class="text-left"> Description: Advanced Placement Calculus AB 1-2 is designed for students who have completed the equivalent of four years of college preparatory mathematics. Students apply skills and information acquired in previous math courses. A review of functions (rational, logarithmic, exponential, and trigonometric) is given. Topics introduced include development of limits and derivative, differentials, integration, and applications of the derivative and integral.</p>
 
+    <p class="text-left">Requirements: This course has been approved to meet the UC/CSU “c” or "g" requirement. </p>
+
+    <p><a href="https://apstudents.collegeboard.org/courses/ap-english-language-and-composition">Link to AP Exam Information on College Board</a></p>
+
+    <style>
+        table, th, td {
+            border:3px solid black;
+        }
+    </style>
+    <table style="width:100%">
+        <tr>
+            <th>Units of Study</th>
+            <th>Description</th>
+
+        </tr>
+        <tr>
+            <td>Unit 1: Limits and Continuity</td>
+            <td>You’ll learn to identify and analyze the claims in a text and determine whether the writer backs up their assertions with reasoning and evidence.</td>
+        </tr>
+        <tr>
+            <td>Unit 2</td>
+            <td>You’ll learn about how writers organize information and evidence to support a specific argument and appeal to a particular audience.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 3</td>
+            <td>You’ll explore the range of perspectives around a topic and how various arguments can relate and respond to one another.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 4</td>
+            <td>You’ll examine how a writer makes choices about methods of developing arguments, introductions, and conclusions.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 5</td>
+            <td>You’ll focus on the very specific and minute choices a writer makes to bring all the parts of an argument together.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 6</td>
+            <td>You’ll work to understand the difference between position and perspective, how to consider bias, and how to integrate and address multiple perspectives in an argument.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 7</td>
+            <td>You’ll consider the breadth and complexity of arguments around a topic and what makes each successful or unsuccessful.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 8</td>
+            <td>You’ll explore the stylistic choices a writer can make and how those choices affect an argument.</td>
+        </tr>
+
+        <tr>
+            <td>Unit 9</td>
+            <td>You’ll consider a wide range of perspectives as you develop a complex argument.</td>
+        </tr>
+    </table>
 {% endblock %}
-</body>
-</html>
 
 {% block background %}
 {% endblock %}

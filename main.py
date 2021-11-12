@@ -41,9 +41,15 @@ def jessie():
     return render_template("ABOUT/jessie.html", name="World")
 
 
-@app.route('/Neha/')
-def stub():
-    return render_template("ABOUT/Neha.html")
+@app.route('/neha')
+def neha():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("ABOUT/neha.html", name=name)
+    # starting and empty input default
+    return render_template("ABOUT/neha.html", name="World")
 
 
 @app.route('/greet', methods=['GET', 'POST'])
@@ -134,23 +140,38 @@ def apphysics():
 
 @app.route('/apgov/')
 def apgov():
-    return render_template("HISTORY/apgov.html")
+    url = "https://google-news1.p.rapidapi.com/top-headlines"
 
-@app.route('/apcalcab/')
-def apcalcab():
-
-    url = "https://numbersapi.p.rapidapi.com/random/trivia"
-
-    querystring = {"min":"10","max":"20","fragment":"true","json":"true"}
+    querystring = {"country":"US","lang":"en","limit":"50"}
 
     headers = {
-        'x-rapidapi-host': "numbersapi.p.rapidapi.com",
-        'x-rapidapi-key': "2f4fb94902msh2ed8a6c271d64d9p1535e1jsn91c7cb7b9d1c"
+    'x-rapidapi-host': "google-news1.p.rapidapi.com",
+    'x-rapidapi-key': "05d606b5acmsha61ea83d5ac24d5p1b5c85jsn80525e9140c9"
     }
+
     response = requests.request("GET", url, headers=headers, params=querystring)
-    output = json.loads(response.text)
 
     print(response.text)
+    return render_template("HISTORY/apgov.html")
+
+@app.route('/apcalcab/',methods=['GET', 'POST'])
+def apcalcab():
+    output = [{'number':2,'text':'is a prime number'}]
+    if request.form:
+        num1 = request.form.get('num1')
+
+        if len(num1)>0:  # input field has content
+            url = "https://numbersapi.p.rapidapi.com/"+num1+"/math"
+
+            querystring = {"fragment":"true","json":"true", "number":"num"}
+            headers = {
+                'x-rapidapi-host': "numbersapi.p.rapidapi.com",
+                'x-rapidapi-key': "2f4fb94902msh2ed8a6c271d64d9p1535e1jsn91c7cb7b9d1c",
+                'x-numbers-api-number': "num"
+            }
+            response = requests.request("GET", url, headers=headers, params=querystring)
+
+            return render_template("MATH/apcalcab.html", x=response.json())
     return render_template("MATH/apcalcab.html", x=output)
 
 @app.route('/apcalcbc/')
@@ -165,7 +186,6 @@ def apstats():
 @app.route('/apeuro/')
 def apeuro():
     return render_template("HISTORY/apeuro.html")
-
 
 @app.route('/apcsa/')
 def apcsa():
