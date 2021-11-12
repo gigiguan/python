@@ -31,7 +31,7 @@
 [Shruti](https://docs.google.com/document/d/1GpllLtK0hBZhOK00pHPJIa1C4eMFT2Sapc1CwylApzU/edit?usp=sharing)
 [Gigi](https://docs.google.com/document/d/1rdRgM8izFy9BW2BAqa0nw4b5GrneUJmblBxUSGW1Fnc/edit?usp=sharing)
 [Neha](https://docs.google.com/document/d/1vS1ExK_xlV_VeJnus3W89uG0KPcAeuz1VoHX7m51E0g/edit?usp=sharing)
-[Jessie](https://docs.google.com/document/d/1EiTrYQYYEnuVxxiIbtRjEHK7q8KR37SAqQeBXWcW5qE/edit?usp=sharing)
+[Jessie Park](https://docs.google.com/document/d/1EiTrYQYYEnuVxxiIbtRjEHK7q8KR37SAqQeBXWcW5qE/edit?usp=sharing)
 
 ## Week 10
 [Link to Week 10 Review Ticket](https://github.com/gigiguan/python/issues/16)
