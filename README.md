@@ -26,7 +26,7 @@
 
 ## Week 12
 [Capture the Moment](https://drive.google.com/drive/folders/1ZnUFFgyZQpbB3rEWg7t3EIaPfp56tqWW?usp=sharing)
-
+[Website page image](static/assets/APELpage.png) 
 ### Retrospective Reflections
 [Shruti](https://docs.google.com/document/d/1GpllLtK0hBZhOK00pHPJIa1C4eMFT2Sapc1CwylApzU/edit?usp=sharing)
 [Gigi](https://docs.google.com/document/d/1rdRgM8izFy9BW2BAqa0nw4b5GrneUJmblBxUSGW1Fnc/edit?usp=sharing)
